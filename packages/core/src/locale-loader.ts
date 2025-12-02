@@ -7,12 +7,16 @@ import { en } from './en'
 import { getLocaleFallbackChain, getLocalePackageName, mergeLocales, parseLocale } from './utils/locale-utils'
 import { installPackage, isInWorkspace } from './utils/package-manager'
 
+/** Locale cache storage */
+const localeCache: Map<string, LocaleDefinition> = new Map()
+
+/** Loading promises storage */
+const loadingPromises: Map<string, Promise<LocaleDefinition>> = new Map()
+
 /**
  * Locale loader with dynamic import support and caching
  */
 export class LocaleLoader {
-  private static cache: Map<string, LocaleDefinition> = new Map()
-  private static loading: Map<string, Promise<LocaleDefinition>> = new Map()
 
   /**
    * Available base locales that can be dynamically loaded
@@ -115,33 +119,33 @@ export class LocaleLoader {
 
     // Return English immediately (it's always bundled)
     if (normalizedLocale === 'en') {
-      if (!this.cache.has('en')) {
-        this.cache.set('en', en)
+      if (!localeCache.has('en')) {
+        localeCache.set('en', en)
       }
       return en
     }
 
     // Check if already cached
-    if (this.cache.has(normalizedLocale)) {
-      return this.cache.get(normalizedLocale)!
+    if (localeCache.has(normalizedLocale)) {
+      return localeCache.get(normalizedLocale)!
     }
 
     // Check if currently loading
-    if (this.loading.has(normalizedLocale)) {
-      return this.loading.get(normalizedLocale)!
+    if (loadingPromises.has(normalizedLocale)) {
+      return loadingPromises.get(normalizedLocale)!
     }
 
     // Start loading with fallback support
     const loadPromise = this.loadLocaleWithFallback(normalizedLocale)
-    this.loading.set(normalizedLocale, loadPromise)
+    loadingPromises.set(normalizedLocale, loadPromise)
 
     try {
       const localeDefinition = await loadPromise
-      this.cache.set(normalizedLocale, localeDefinition)
+      localeCache.set(normalizedLocale, localeDefinition)
       return localeDefinition
     }
     finally {
-      this.loading.delete(normalizedLocale)
+      loadingPromises.delete(normalizedLocale)
     }
   }
 
@@ -155,14 +159,14 @@ export class LocaleLoader {
     const normalizedLocale = localeInfo.normalized
 
     if (normalizedLocale === 'en') {
-      if (!this.cache.has('en')) {
-        this.cache.set('en', en)
+      if (!localeCache.has('en')) {
+        localeCache.set('en', en)
       }
       return en
     }
 
-    if (this.cache.has(normalizedLocale)) {
-      return this.cache.get(normalizedLocale)!
+    if (localeCache.has(normalizedLocale)) {
+      return localeCache.get(normalizedLocale)!
     }
 
     throw new Error(
@@ -175,7 +179,7 @@ export class LocaleLoader {
    */
   static isCached(locale: string): boolean {
     const normalizedLocale = parseLocale(locale).normalized
-    return this.cache.has(normalizedLocale)
+    return localeCache.has(normalizedLocale)
   }
 
   /**
@@ -190,8 +194,8 @@ export class LocaleLoader {
    * Clear the locale cache
    */
   static clearCache(): void {
-    this.cache.clear()
-    this.loading.clear()
+    localeCache.clear()
+    loadingPromises.clear()
   }
 
   /**
