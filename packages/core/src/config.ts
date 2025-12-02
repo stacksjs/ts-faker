@@ -7,9 +7,19 @@ export const defaultConfig: MockConfig = {
   autoInstallLocales: false,
 }
 
-// eslint-disable-next-line antfu/no-top-level-await
-export const config: MockConfig = await loadConfig({
+// Lazy-loaded config to avoid top-level await (enables bun --compile)
+let _config: MockConfig | null = null
+
+export async function getConfig(): Promise<MockConfig> {
+  if (!_config) {
+    _config = await loadConfig({
   name: 'mock',
   alias: 'faker',
   defaultConfig,
 })
+  }
+  return _config
+}
+
+// For backwards compatibility - synchronous access with default fallback
+export const config: MockConfig = defaultConfig
