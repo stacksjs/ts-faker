@@ -1,10 +1,14 @@
+/** Alphabet characters for random string generation */
+const ALPHABET = 'abcdefghijklmnopqrstuvwxyz'.split('')
+
+/** Digit characters for random number string generation */
+const DIGITS = '0123456789'
+
 /**
  * Random number generator with optional seeding support
  */
 export class Random {
   private seed: number | undefined
-  private static readonly ALPHABET = 'abcdefghijklmnopqrstuvwxyz'.split('')
-  private static readonly DIGITS = '0123456789'
 
   constructor(seed?: number) {
     this.seed = seed
@@ -100,10 +104,10 @@ export class Random {
       for (let i = 0; i < format.length; i++) {
         const char = format[i]
         if (char === '#') {
-          result += Random.DIGITS[Math.floor(Math.random() * 10)]
+          result += DIGITS[Math.floor(Math.random() * 10)]
         }
         else if (char === '?') {
-          result += Random.ALPHABET[Math.floor(Math.random() * 26)]
+          result += ALPHABET[Math.floor(Math.random() * 26)]
         }
         else {
           result += char
@@ -117,7 +121,7 @@ export class Random {
       if (match === '#') {
         return String(this.int(0, 9))
       }
-      return this.arrayElement(Random.ALPHABET)
+      return this.arrayElement(ALPHABET)
     })
   }
 
