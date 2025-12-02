@@ -1,8 +1,10 @@
 import type { Random } from '../random'
 import type { LocaleDefinition, PasswordOptions } from '../types'
 
+/** Email username separators */
+const SEPARATORS = ['.', '_', '-', '']
+
 export class InternetModule {
-  private static readonly SEPARATORS = ['.', '_', '-', '']
   private domainWordsCache: string[] | null = null
 
   constructor(
@@ -53,7 +55,7 @@ export class InternetModule {
 
     const lastName = options?.lastName ?? this.random.arrayElement(this.locale.person.lastName).toLowerCase()
     const provider = options?.provider ?? this.random.arrayElement(this.locale.internet.domainSuffix ?? ['com', 'net', 'org'])
-    const separator = this.random.arrayElement(InternetModule.SEPARATORS)
+    const separator = this.random.arrayElement(SEPARATORS)
     const domain = this.random.arrayElement(this.getDomainWords())
 
     return `${firstName}${separator}${lastName}@${domain}.${provider}`
