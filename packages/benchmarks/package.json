@@ -1,7 +1,7 @@
 {
   "name": "@ts-mocker/benchmarks",
   "type": "module",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "description": "Benchmarks comparing ts-mocker against other faker libraries",
   "author": "Chris Breuer <chris@stacksjs.org>",

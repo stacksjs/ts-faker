@@ -1,7 +1,7 @@
 {
   "name": "@mock-locale/de-at",
   "type": "module",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "German (Austria) locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

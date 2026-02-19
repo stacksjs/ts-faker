@@ -1,7 +1,7 @@
 {
   "name": "@mock-locale/af-za",
   "type": "module",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Afrikaans (South Africa) locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

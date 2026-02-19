@@ -1,7 +1,7 @@
 {
   "name": "@mock-locale/en-us",
   "type": "module",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "English (United States) locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

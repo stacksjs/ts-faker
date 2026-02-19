@@ -1,3 +1,52 @@
+[Compare changes](https://github.com/stacksjs/ts-mocker/compare/v0.1.5...v0.1.6)
+
+### 🧹 Chores
+
+- release v0.1.6 ([21b971a](https://github.com/stacksjs/ts-mocker/commit/21b971a)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([ec7be38](https://github.com/stacksjs/ts-mocker/commit/ec7be38)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update actions/cache action to v5 (#216) ([d800f35](https://github.com/stacksjs/ts-mocker/commit/d800f35)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#216](https://github.com/stacksjs/ts-mocker/issues/216), [#216](https://github.com/stacksjs/ts-mocker/issues/216))
+- **deps**: update actions/checkout action to v6 (#31) ([d9652c0](https://github.com/stacksjs/ts-mocker/commit/d9652c0)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#31](https://github.com/stacksjs/ts-mocker/issues/31), [#31](https://github.com/stacksjs/ts-mocker/issues/31))
+- wip ([78a1472](https://github.com/stacksjs/ts-mocker/commit/78a1472)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([3c91802](https://github.com/stacksjs/ts-mocker/commit/3c91802)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([496b612](https://github.com/stacksjs/ts-mocker/commit/496b612)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([5647574](https://github.com/stacksjs/ts-mocker/commit/5647574)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update dependency buddy-bot to ^0.9.11 (#27) ([225b68c](https://github.com/stacksjs/ts-mocker/commit/225b68c)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#27](https://github.com/stacksjs/ts-mocker/issues/27), [#27](https://github.com/stacksjs/ts-mocker/issues/27))
+- **deps**: update all non-major dependencies (#26) ([dfc67e7](https://github.com/stacksjs/ts-mocker/commit/dfc67e7)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#26](https://github.com/stacksjs/ts-mocker/issues/26), [#26](https://github.com/stacksjs/ts-mocker/issues/26))
+- **deps**: update dependency bunfig to ^0.15.6 (#24) ([0f2ed03](https://github.com/stacksjs/ts-mocker/commit/0f2ed03)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#24](https://github.com/stacksjs/ts-mocker/issues/24), [#24](https://github.com/stacksjs/ts-mocker/issues/24))
+- **deps**: update all non-major dependencies (#22) ([73d3ee9](https://github.com/stacksjs/ts-mocker/commit/73d3ee9)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#22](https://github.com/stacksjs/ts-mocker/issues/22), [#22](https://github.com/stacksjs/ts-mocker/issues/22))
+- **deps**: update all non-major dependencies (#19) ([93b0bfa](https://github.com/stacksjs/ts-mocker/commit/93b0bfa)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#19](https://github.com/stacksjs/ts-mocker/issues/19), [#19](https://github.com/stacksjs/ts-mocker/issues/19))
+- **deps**: update all non-major dependencies (#18) ([b9428ba](https://github.com/stacksjs/ts-mocker/commit/b9428ba)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#18](https://github.com/stacksjs/ts-mocker/issues/18), [#18](https://github.com/stacksjs/ts-mocker/issues/18))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/ts-mocker/compare/v0.1.5...HEAD)
+
+### 🧹 Chores
+
+- wip ([ec7be38](https://github.com/stacksjs/ts-mocker/commit/ec7be38)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update actions/cache action to v5 (#216) ([d800f35](https://github.com/stacksjs/ts-mocker/commit/d800f35)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#216](https://github.com/stacksjs/ts-mocker/issues/216), [#216](https://github.com/stacksjs/ts-mocker/issues/216))
+- **deps**: update actions/checkout action to v6 (#31) ([d9652c0](https://github.com/stacksjs/ts-mocker/commit/d9652c0)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#31](https://github.com/stacksjs/ts-mocker/issues/31), [#31](https://github.com/stacksjs/ts-mocker/issues/31))
+- wip ([78a1472](https://github.com/stacksjs/ts-mocker/commit/78a1472)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([3c91802](https://github.com/stacksjs/ts-mocker/commit/3c91802)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([496b612](https://github.com/stacksjs/ts-mocker/commit/496b612)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([5647574](https://github.com/stacksjs/ts-mocker/commit/5647574)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: update dependency buddy-bot to ^0.9.11 (#27) ([225b68c](https://github.com/stacksjs/ts-mocker/commit/225b68c)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#27](https://github.com/stacksjs/ts-mocker/issues/27), [#27](https://github.com/stacksjs/ts-mocker/issues/27))
+- **deps**: update all non-major dependencies (#26) ([dfc67e7](https://github.com/stacksjs/ts-mocker/commit/dfc67e7)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#26](https://github.com/stacksjs/ts-mocker/issues/26), [#26](https://github.com/stacksjs/ts-mocker/issues/26))
+- **deps**: update dependency bunfig to ^0.15.6 (#24) ([0f2ed03](https://github.com/stacksjs/ts-mocker/commit/0f2ed03)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#24](https://github.com/stacksjs/ts-mocker/issues/24), [#24](https://github.com/stacksjs/ts-mocker/issues/24))
+- **deps**: update all non-major dependencies (#22) ([73d3ee9](https://github.com/stacksjs/ts-mocker/commit/73d3ee9)) _(by [renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot]))_ ([#22](https://github.com/stacksjs/ts-mocker/issues/22), [#22](https://github.com/stacksjs/ts-mocker/issues/22))
+- **deps**: update all non-major dependencies (#19) ([93b0bfa](https://github.com/stacksjs/ts-mocker/commit/93b0bfa)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#19](https://github.com/stacksjs/ts-mocker/issues/19), [#19](https://github.com/stacksjs/ts-mocker/issues/19))
+- **deps**: update all non-major dependencies (#18) ([b9428ba](https://github.com/stacksjs/ts-mocker/commit/b9428ba)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#18](https://github.com/stacksjs/ts-mocker/issues/18), [#18](https://github.com/stacksjs/ts-mocker/issues/18))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _[renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>](https://github.com/renovate[bot])_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/ts-mocker/compare/v0.1.4...v0.1.5)
 
 ### 🧹 Chores
