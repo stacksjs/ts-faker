@@ -108,7 +108,7 @@ describe('Faker Library', () => {
     it('should generate a phone number', () => {
       const phone = faker.phone.number()
       expect(typeof phone).toBe('string')
-      // eslint-disable-next-line regexp/strict
+
       expect(phone).toMatch(/[\d-()+ ]/)
     })
   })
@@ -521,7 +521,7 @@ describe('Faker Library', () => {
 
           expect(typeof phone).toBe('string')
           expect(phone.length).toBeGreaterThan(0)
-          // eslint-disable-next-line regexp/strict
+    
           expect(phone).toMatch(/[\d-()+ ]/)
         })
       })

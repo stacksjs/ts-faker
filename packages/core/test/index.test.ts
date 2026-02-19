@@ -22,12 +22,10 @@ describe('my awesome package', () => {
   let testValue: number
 
   beforeAll(() => {
-    // eslint-disable-next-line no-console
     console.log('Running before all tests')
   })
 
   afterAll(() => {
-    // eslint-disable-next-line no-console
     console.log('Running after all tests')
   })
 
@@ -77,7 +75,6 @@ describe('my awesome package', () => {
 
   it('should demonstrate spy functionality', () => {
     const consoleSpy = spyOn(console, 'log')
-    // eslint-disable-next-line no-console
     console.log('Test message')
     expect(consoleSpy).toHaveBeenCalledWith('Test message')
     consoleSpy.mockRestore()

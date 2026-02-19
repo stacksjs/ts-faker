@@ -1,11 +1,9 @@
-/* eslint-disable no-console, ts/no-unused-expressions */
 import { faker as fakerjs } from '@faker-js/faker'
 import { randCity, randCompanyName, randCountry, randEmail, randFullName, randPhoneNumber, randProduct, randUuid } from '@ngneat/falso'
 import casual from 'casual'
 import Chance from 'chance'
 import { Bench } from 'tinybench'
 // @ts-expect-error ts-mocker is typed
-// eslint-disable-next-line antfu/no-import-dist
 import { faker } from '../../core/dist/src/index.js'
 
 const chance = new Chance()

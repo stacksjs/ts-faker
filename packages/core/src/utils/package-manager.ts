@@ -60,7 +60,7 @@ export function installPackage(packageName: string, options: { silent?: boolean 
   // Instead, we let the installation attempt proceed and handle dependency loop errors gracefully.
 
   if (!silent) {
-    // eslint-disable-next-line no-console
+
     console.log(`\n📦 Installing ${packageName} using ${pm}...`)
   }
 
@@ -87,7 +87,7 @@ export function installPackage(packageName: string, options: { silent?: boolean 
     if (!silent) {
       // Show the output to user if not silent
       if (stdout) {
-        // eslint-disable-next-line no-console
+    
         console.log(stdout)
       }
       if (stderr) {
@@ -97,7 +97,7 @@ export function installPackage(packageName: string, options: { silent?: boolean 
 
     if (result.status === 0) {
       if (!silent) {
-        // eslint-disable-next-line no-console
+    
         console.log(`✓ Successfully installed ${packageName}`)
       }
       return true
@@ -114,10 +114,10 @@ export function installPackage(packageName: string, options: { silent?: boolean 
 
       if (hasDependencyLoop) {
         if (!silent) {
-          // eslint-disable-next-line no-console
+      
           console.log(`\n⚠️  Package ${packageName} is already available in the workspace and cannot be installed separately due to a dependency loop.`)
           if (isInWorkspace()) {
-            // eslint-disable-next-line no-console
+        
             console.log(`   This is expected when running in a workspace environment. The package should be available for import.`)
           }
         }

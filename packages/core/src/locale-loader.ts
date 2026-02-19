@@ -311,7 +311,6 @@ export class LocaleLoader {
 
         // Try to auto-install if enabled
         if (config.autoInstallLocales) {
-          // eslint-disable-next-line no-console
           console.log(`\n🔍 Locale '${locale}' not found. Auto-installing ${packageName}...`)
 
           const installed = installPackage(packageName)

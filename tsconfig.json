@@ -27,5 +27,6 @@
     "verbatimModuleSyntax": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": ["docs", "dist", "node_modules", "benchmarks", "pickier.config.ts"]
 }
