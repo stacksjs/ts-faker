@@ -197,7 +197,8 @@ export class VehicleModule {
    * @example faker.vehicle.vin() // '1HGBH41JXMN109186'
    */
   vin(): string {
-    const chars = 'ABCDEFGHJKLMNPRSTUVWXYZ0123456789' // Excludes I, O, Q
+    // VIN-valid characters (excludes I, O, Q per ISO 3779)
+    const chars = 'ABCDEFGHJKLMNPRSTUVWXYZ0123456789'
     let vin = ''
     for (let i = 0; i < 17; i++) {
       vin += chars[this.random.int(0, chars.length - 1)]
