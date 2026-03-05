@@ -9,9 +9,9 @@
         "@stacksjs/docs": "^0.70.23",
         "@stacksjs/gitlint": "^0.1.5",
         "@stacksjs/logsmith": "^0.2.1",
-        "@types/bun": "^1.3.9",
+        "@types/bun": "^1.3.10",
         "better-dx": "^0.2.6",
-        "buddy-bot": "^0.9.16",
+        "buddy-bot": "^0.9.17",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -21,7 +21,7 @@
       "name": "@mock-locale/af",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -34,7 +34,7 @@
       "name": "@mock-locale/af-za",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -47,7 +47,7 @@
       "name": "@mock-locale/ar",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -60,7 +60,7 @@
       "name": "@mock-locale/az",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -95,7 +95,7 @@
         "cac": "^6.7.14",
       },
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bunfig": "^0.15.6",
       },
     },
@@ -103,7 +103,7 @@
       "name": "@mock-locale/cs",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -116,7 +116,7 @@
       "name": "@mock-locale/da",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -129,7 +129,7 @@
       "name": "@mock-locale/de",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -142,7 +142,7 @@
       "name": "@mock-locale/de-at",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -155,7 +155,7 @@
       "name": "@mock-locale/de-ch",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -168,7 +168,7 @@
       "name": "@mock-locale/en",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -181,7 +181,7 @@
       "name": "@mock-locale/en-ca",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -194,7 +194,7 @@
       "name": "@mock-locale/en-gb",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -207,7 +207,7 @@
       "name": "@mock-locale/en-gh",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -220,7 +220,7 @@
       "name": "@mock-locale/en-hk",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -233,7 +233,7 @@
       "name": "@mock-locale/en-ie",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -246,7 +246,7 @@
       "name": "@mock-locale/en-in",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -259,7 +259,7 @@
       "name": "@mock-locale/en-ng",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -272,7 +272,7 @@
       "name": "@mock-locale/en-us",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -285,7 +285,7 @@
       "name": "@mock-locale/en-za",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -298,7 +298,7 @@
       "name": "@mock-locale/eo",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -311,7 +311,7 @@
       "name": "@mock-locale/es",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -324,7 +324,7 @@
       "name": "@mock-locale/es-mx",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -337,7 +337,7 @@
       "name": "@mock-locale/fa",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -350,7 +350,7 @@
       "name": "@mock-locale/fi",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -363,7 +363,7 @@
       "name": "@mock-locale/fr",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -376,7 +376,7 @@
       "name": "@mock-locale/fr-be",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -389,7 +389,7 @@
       "name": "@mock-locale/fr-ca",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -402,7 +402,7 @@
       "name": "@mock-locale/fr-ch",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -415,7 +415,7 @@
       "name": "@mock-locale/fr-lu",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -428,7 +428,7 @@
       "name": "@mock-locale/fr-sn",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -441,7 +441,7 @@
       "name": "@mock-locale/he",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -454,7 +454,7 @@
       "name": "@mock-locale/hi",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -467,7 +467,7 @@
       "name": "@mock-locale/it",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -480,7 +480,7 @@
       "name": "@mock-locale/ja",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -493,7 +493,7 @@
       "name": "@mock-locale/ko",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -506,7 +506,7 @@
       "name": "@mock-locale/nl",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -519,7 +519,7 @@
       "name": "@mock-locale/no",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -532,7 +532,7 @@
       "name": "@mock-locale/pl",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -545,7 +545,7 @@
       "name": "@mock-locale/pt",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -558,7 +558,7 @@
       "name": "@mock-locale/pt-mz",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -571,7 +571,7 @@
       "name": "@mock-locale/sv",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -584,7 +584,7 @@
       "name": "@mock-locale/tl",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -597,7 +597,7 @@
       "name": "@mock-locale/tr",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -610,7 +610,7 @@
       "name": "@mock-locale/uk",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -623,7 +623,7 @@
       "name": "@mock-locale/zh",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -636,7 +636,7 @@
       "name": "@mock-locale/zh-cn",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -649,7 +649,7 @@
       "name": "@mock-locale/zh-tw",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -662,7 +662,7 @@
       "name": "@mock-locale/zu",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
@@ -675,7 +675,7 @@
       "name": "@mock-locale/zu-za",
       "version": "0.1.6",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
