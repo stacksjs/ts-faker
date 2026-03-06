@@ -1,7 +1,7 @@
 {
   "name": "ts-mocker",
   "type": "module",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "ts-mocker is a performance-focused and lightweight faker/data mocking library for TypeScript.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

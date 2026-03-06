@@ -1,7 +1,7 @@
 {
   "name": "@mock-locale/en-hk",
   "type": "module",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "English (Hong Kong) locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

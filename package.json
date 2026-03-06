@@ -1,7 +1,7 @@
 {
   "name": "ts-mocker",
   "type": "module",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -81,9 +81,9 @@
     "lint:fix": "bunx --bun pickier . --fix",
     "format": "bunx --bun pickier . --format",
     "format:fix": "bunx --bun pickier . --format --write",
-    "changelog": "bunx --bun logsmith --verbose",
-    "changelog:generate": "bunx --bun logsmith --output CHANGELOG.md",
-    "release": "bun run changelog:generate && bunx --bun bumpx prompt --recursive",
+    "changelog": "bunx --bun @stacksjs/logsmith --verbose",
+    "changelog:generate": "bunx --bun @stacksjs/logsmith --output CHANGELOG.md",
+    "release": "bun run changelog:generate && bunx --bun @stacksjs/bumpx prompt --recursive",
     "dev:docs": "bun --bun bunpress dev docs",
     "build:docs": "bun --bun bunpress build docs",
     "preview:docs": "bun --bun bunpress preview docs",

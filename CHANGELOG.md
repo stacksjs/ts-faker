@@ -1,3 +1,29 @@
+[Compare changes](https://github.com/stacksjs/ts-mocker/compare/v0.1.6...HEAD)
+
+### 🧹 Chores
+
+- wip ([caff351](https://github.com/stacksjs/ts-mocker/commit/caff351)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([4578e5f](https://github.com/stacksjs/ts-mocker/commit/4578e5f)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([8871934](https://github.com/stacksjs/ts-mocker/commit/8871934)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([664c1d0](https://github.com/stacksjs/ts-mocker/commit/664c1d0)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([d5f03f4](https://github.com/stacksjs/ts-mocker/commit/d5f03f4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([1d1fbfe](https://github.com/stacksjs/ts-mocker/commit/1d1fbfe)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([9232f2f](https://github.com/stacksjs/ts-mocker/commit/9232f2f)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([a167775](https://github.com/stacksjs/ts-mocker/commit/a167775)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([b47a7d4](https://github.com/stacksjs/ts-mocker/commit/b47a7d4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([11d1597](https://github.com/stacksjs/ts-mocker/commit/11d1597)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([21a633c](https://github.com/stacksjs/ts-mocker/commit/21a633c)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([7134bf6](https://github.com/stacksjs/ts-mocker/commit/7134bf6)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([4459c7b](https://github.com/stacksjs/ts-mocker/commit/4459c7b)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([5a6c196](https://github.com/stacksjs/ts-mocker/commit/5a6c196)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- wip ([287079c](https://github.com/stacksjs/ts-mocker/commit/287079c)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- **deps**: update all non-major dependencies (#1040) ([bc1a4fb](https://github.com/stacksjs/ts-mocker/commit/bc1a4fb)) _(by Chris <chrisbreuer93@gmail.com>)_ ([#1040](https://github.com/stacksjs/ts-mocker/issues/1040), [#1040](https://github.com/stacksjs/ts-mocker/issues/1040))
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/ts-mocker/compare/v0.1.5...v0.1.6)
 
 ### 🧹 Chores
