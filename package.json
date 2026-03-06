@@ -81,12 +81,12 @@
     "lint:fix": "bunx --bun pickier . --fix",
     "format": "bunx --bun pickier . --format",
     "format:fix": "bunx --bun pickier . --format --write",
-    "changelog": "bunx logsmith --verbose",
-    "changelog:generate": "bunx logsmith --output CHANGELOG.md",
+    "changelog": "bunx --bun logsmith --verbose",
+    "changelog:generate": "bunx --bun logsmith --output CHANGELOG.md",
     "release": "bun run changelog:generate && bunx --bun bumpx prompt --recursive",
-    "dev:docs": "bun --bun vitepress dev docs",
-    "build:docs": "bun --bun vitepress build docs",
-    "preview:docs": "bun --bun vitepress preview docs",
+    "dev:docs": "bun --bun bunpress dev docs",
+    "build:docs": "bun --bun bunpress build docs",
+    "preview:docs": "bun --bun bunpress preview docs",
     "typecheck": "bun --bun tsc --noEmit"
   },
   "devDependencies": {
