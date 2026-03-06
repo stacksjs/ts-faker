@@ -12,3 +12,4 @@ temp
 docs/.vitepress/cache
 bin/ts-mocker
 packages/core/bin/ts-mocker
+packages/core/bin/mock
