@@ -90,6 +90,6 @@
     "typecheck": "bun --bun tsc --noEmit"
   },
   "devDependencies": {
-    "better-dx": "^0.2.6"
+    "better-dx": "^0.2.7"
   }
 }
