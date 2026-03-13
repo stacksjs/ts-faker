@@ -2,7 +2,7 @@
 
 ## About
 
-A performance-focused and lightweight faker library for TypeScript.
+A performance-focused, lightweight faker/mock data library for TypeScript with comprehensive locale support (28 languages, 22+ regional variants). It generates realistic fake data across 16+ categories (person, address, company, internet, food, animals, sports, music, commerce, and more) and is significantly faster and smaller than @faker-js/faker. Includes a CLI, weighted selection for realistic distributions, and custom provider support.
 
 ## Linting
 
