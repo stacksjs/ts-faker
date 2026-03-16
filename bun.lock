@@ -380,7 +380,7 @@
       "name": "@mock-locale/fr-ca",
       "version": "0.1.7",
       "devDependencies": {
-        "@types/bun": "^1.3.1",
+        "@types/bun": "^1.3.10",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
         "typescript": "^5.9.3",
