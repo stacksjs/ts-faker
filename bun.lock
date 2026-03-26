@@ -15,7 +15,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -28,7 +28,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -41,7 +41,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -54,7 +54,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -97,7 +97,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -110,7 +110,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -123,7 +123,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -136,7 +136,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -149,7 +149,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -162,7 +162,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -175,7 +175,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -188,7 +188,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -201,7 +201,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -214,7 +214,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -227,7 +227,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -240,7 +240,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -253,7 +253,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -266,7 +266,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -279,7 +279,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -292,7 +292,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -305,7 +305,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -318,7 +318,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -331,7 +331,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -344,7 +344,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -357,7 +357,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -370,7 +370,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -383,7 +383,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -396,7 +396,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -409,7 +409,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -422,7 +422,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -435,7 +435,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -448,7 +448,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -461,7 +461,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -474,7 +474,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -487,7 +487,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -500,7 +500,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -513,7 +513,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -526,7 +526,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -539,7 +539,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -552,7 +552,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -565,7 +565,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -578,7 +578,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -591,7 +591,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -604,7 +604,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -617,7 +617,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -630,7 +630,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -643,7 +643,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -656,7 +656,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -669,7 +669,7 @@
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
         "bunfig": "^0.15.6",
-        "typescript": "^5.9.3",
+        "typescript": "^6.0.2",
       },
       "peerDependencies": {
         "ts-mocker": "workspace:*",
@@ -1031,7 +1031,7 @@
 
     "ts-web-scraper": ["ts-web-scraper@0.1.1", "", { "bin": { "scraper": "dist/bin/cli.js" } }, "sha512-js+gSRe95yDD9U3+GmjvIKBYLAN9WoZKV84x7HcSI7dqdWEIoZSeSGR/Jbr8f5hCeV9FD70KdTPIS2LQwviQXQ=="],
 
-    "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
+    "typescript": ["typescript@6.0.2", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ=="],
 
     "undici-types": ["undici-types@7.18.2", "", {}, "sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w=="],
 
@@ -1052,6 +1052,8 @@
     "@isaacs/cliui/string-width": ["string-width@5.1.2", "", { "dependencies": { "eastasianwidth": "^0.2.0", "emoji-regex": "^9.2.2", "strip-ansi": "^7.0.1" } }, "sha512-HnLOCR3vjcY8beoNLtcjZ5/nxn2afmME6lhrDrebokqMap+XbeW8n9TXpPDOqdGK5qcI3oT0GKTW6wC7EMiVqA=="],
 
     "@isaacs/cliui/wrap-ansi": ["wrap-ansi@8.1.0", "", { "dependencies": { "ansi-styles": "^6.1.0", "string-width": "^5.0.1", "strip-ansi": "^7.0.1" } }, "sha512-si7QWI6zUMq56bESFvagtmzMdGOtoxfR+Sez11Mobfc7tm+VkUckk9bW2UeffTGVUbOksxmSw0AA2gs8g71NCQ=="],
+
+    "better-dx/typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
     "glob/minimatch": ["minimatch@9.0.9", "", { "dependencies": { "brace-expansion": "^2.0.2" } }, "sha512-OBwBN9AL4dqmETlpS2zasx+vTeWclWzkblfZk7KTA5j3jeOONz/tRCnZomUyvNg83wL5Zv9Ss6HMJXAgL8R2Yg=="],
 
