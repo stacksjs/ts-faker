@@ -39,22 +39,22 @@
   ],
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/src/index.js"
+      "types": "./packages/core/dist/index.d.ts",
+      "import": "./packages/core/dist/src/index.js"
     },
     "./*": {
-      "import": "./dist/*"
+      "import": "./packages/core/dist/*"
     }
   },
-  "module": "./dist/src/index.js",
-  "types": "./dist/index.d.ts",
+  "module": "./packages/core/dist/src/index.js",
+  "types": "./packages/core/dist/index.d.ts",
   "bin": {
     "ts-mocker": "./packages/core/dist/bin/cli.js",
     "mock": "./packages/core/dist/bin/cli.js"
   },
   "files": [
     "README.md",
-    "dist"
+    "packages/core/dist"
   ],
   "scripts": {
     "build": "bun run scripts/build-all.ts",
