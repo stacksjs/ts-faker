@@ -381,12 +381,16 @@ Object.assign(faker, { gaming: gamingExtension })
 
 ```ts
 /**
+
  * Gaming extension for ts-mocker
+
  *
+
  * @example
  * ```ts
  * faker.gaming.gamertag() // "EpicWarrior1234"
  * ```
+
  */
 export const gamingExtension = {
   // Implementation

@@ -31,7 +31,7 @@ Chance.js:          2.08MB  █████████████████�
 @faker-js/faker:    4.29MB  ████████████████████████████████████████████████████████████████████████████████████████████████████████████
 ```
 
-**Impact**: ts-mocker is **24.7x smaller** than @faker-js/faker (saves 4.12 MB, 96% reduction).
+**Impact**: ts-mocker is**24.7x smaller** than @faker-js/faker (saves 4.12 MB, 96% reduction).
 
 ### File Count
 
@@ -43,7 +43,7 @@ Chance.js:           164 files  ████████████████
 @ngneat/falso:       399 files  ████████████████████████████████████████████████
 ```
 
-**Impact**: ts-mocker has **6.1x fewer files** than @faker-js/faker.
+**Impact**: ts-mocker has**6.1x fewer files** than @faker-js/faker.
 
 ### Real-World Impact
 
@@ -122,7 +122,7 @@ ts-mocker:           7.97ms  ████
 Chance.js:          ~33.1ms  ████████████████
 ```
 
-**Result**: ts-mocker is **6.6x faster** than @faker-js/faker for complex operations.
+**Result**: ts-mocker is**6.6x faster** than @faker-js/faker for complex operations.
 
 ## Locale Support Comparison
 

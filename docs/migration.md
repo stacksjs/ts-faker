@@ -152,7 +152,7 @@ const email = faker.internet.email()
 **Before:**
 
 ```php
-$faker = Faker\Factory::create('es_ES');
+$faker = Faker\Factory::create('es*ES');
 ```
 
 **After:**
@@ -264,7 +264,7 @@ npm install ts-mocker
 ```ts
 import casual from 'casual'
 
-const name = casual.full_name
+const name = casual.full*name
 const email = casual.email
 ```
 
@@ -281,15 +281,15 @@ const email = faker.internet.email()
 
 | Casual | ts-mocker |
 |--------|-----------|
-| `casual.full_name` | `faker.person.fullName()` |
-| `casual.first_name` | `faker.person.firstName()` |
+| `casual.full*name` | `faker.person.fullName()` |
+| `casual.first*name` | `faker.person.firstName()` |
 | `casual.email` | `faker.internet.email()` |
 | `casual.phone` | `faker.phone.number()` |
 | `casual.city` | `faker.address.city()` |
 | `casual.country` | `faker.address.country()` |
-| `casual.random_element(array)` | `faker.helpers.arrayElement(array)` |
+| `casual.random*element(array)` | `faker.helpers.arrayElement(array)` |
 | `casual.integer(1, 100)` | `faker.number.int({ min: 1, max: 100 })` |
-| `casual.coin_flip` | `faker.helpers.boolean()` |
+| `casual.coin*flip` | `faker.helpers.boolean()` |
 
 ## Common Migration Patterns
 
@@ -467,7 +467,7 @@ After migrating to ts-mocker, you'll get:
 ✅ **Simpler API** - Less configuration needed
 ✅ **CLI tool** - Command-line data generation
 
-## Need Help?
+## Need Help
 
 If you encounter issues during migration:
 

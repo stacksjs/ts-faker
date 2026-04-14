@@ -2,7 +2,7 @@
 
 Learn how to use ts-mocker effectively in your test suites for unit tests, integration tests, and end-to-end tests.
 
-## Why Use ts-mocker for Testing?
+## Why Use ts-mocker for Testing
 
 1. **Realistic data** - Generate data that looks authentic
 2. **Reproducible** - Use seeding for consistent test results

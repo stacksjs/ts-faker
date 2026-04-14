@@ -2,11 +2,11 @@
 
 Seeding allows you to generate reproducible random data. This is useful for testing, debugging, and creating consistent datasets.
 
-## What is Seeding?
+## What is Seeding
 
 Seeding sets the initial state of the random number generator, ensuring that the same sequence of "random" values is generated each time you run your code with the same seed.
 
-## Why Use Seeding?
+## Why Use Seeding
 
 ### 1. Reproducible Tests
 

@@ -216,6 +216,7 @@ const faker = new Faker({
 ## Reproducibility Guarantees
 
 When using the same seed:
+
 - Same locale produces same results
 - Same method calls in same order produce same results
 - Results are consistent across ts-mocker versions (within major versions)

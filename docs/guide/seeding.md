@@ -2,7 +2,7 @@
 
 ts-mocker supports seeding for reproducible, deterministic fake data generation. This is essential for testing, debugging, and creating consistent fixtures.
 
-## Why Use Seeding?
+## Why Use Seeding
 
 - **Reproducible tests** - Same seed produces identical data every time
 - **Debugging** - Recreate exact data conditions that caused issues

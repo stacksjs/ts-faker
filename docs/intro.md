@@ -8,7 +8,7 @@
 
 ts-mocker is a modern, lightweight TypeScript library for generating fake data. Built with performance and developer experience in mind, it provides comprehensive locale support across 28 languages with complete translations for all data categories.
 
-## Why ts-mocker?
+## Why ts-mocker
 
 ### Performance First
 

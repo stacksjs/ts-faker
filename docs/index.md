@@ -50,5 +50,3 @@ features:
   - title: "Extensive Documentation"
     details: "Comprehensive guides, API references, examples, and best practices for every feature and locale."
 ---
-
-<Home />

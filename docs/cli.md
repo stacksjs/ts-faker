@@ -339,7 +339,7 @@ ts-mocker batch 5 --template product --locale ja > products-ja.json
 Use the CLI in shell scripts:
 
 ```bash
-#!/bin/bash
+# !/bin/bash
 
 # Generate test data
 for i in {1..10}; do

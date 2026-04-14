@@ -448,7 +448,7 @@ ts-mocker is designed for performance and efficiency:
 # Run all benchmarks
 bun run bench
 
-# Results are compared against:
+# Results are compared against
 # - @faker-js/faker
 # - chance
 # - casual

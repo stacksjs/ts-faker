@@ -21,7 +21,7 @@ Comprehensive benchmarks comparing ts-mocker against other popular JavaScript/Ty
 
 | Library | ops/s | avg time | margin | vs fastest |
 |---------|-------|----------|--------|------------|
-| **ts-mocker** | 31.35M ops/s | 0.0319ms | ±0.47% | **(fastest)** ✅ |
+| **ts-mocker**| 31.35M ops/s | 0.0319ms | ±0.47% |**(fastest)** ✅ |
 | @ngneat/falso | 3.76M ops/s | 0.2659ms | ±0.95% | 0.12x |
 | casual | 2.61M ops/s | 0.3833ms | ±0.96% | 0.08x |
 | chance | 2.56M ops/s | 0.3900ms | ±1.01% | 0.08x |
@@ -31,7 +31,7 @@ Comprehensive benchmarks comparing ts-mocker against other popular JavaScript/Ty
 
 | Library | ops/s | avg time | margin | vs fastest |
 |---------|-------|----------|--------|------------|
-| **ts-mocker** | 1.96M ops/s | 0.5098ms | ±1.43% | **(fastest)** ✅ |
+| **ts-mocker**| 1.96M ops/s | 0.5098ms | ±1.43% |**(fastest)** ✅ |
 | @ngneat/falso | 1.81M ops/s | 0.5512ms | ±1.12% | 0.92x |
 | casual | 1.09M ops/s | 0.9172ms | ±0.79% | 0.56x |
 | chance | 849.49K ops/s | 1.1772ms | ±1.43% | 0.43x |
@@ -41,7 +41,7 @@ Comprehensive benchmarks comparing ts-mocker against other popular JavaScript/Ty
 
 | Library | ops/s | avg time | margin | vs fastest |
 |---------|-------|----------|--------|------------|
-| **ts-mocker** | 9.77M ops/s | 0.1024ms | ±1.13% | **(fastest)** ✅ |
+| **ts-mocker**| 9.77M ops/s | 0.1024ms | ±1.13% |**(fastest)** ✅ |
 | chance | 2.68M ops/s | 0.3735ms | ±1.21% | 0.27x |
 | @faker-js/faker | 2.05M ops/s | 0.4869ms | ±0.99% | 0.21x |
 | casual | 1.23M ops/s | 0.8117ms | ±0.61% | 0.13x |
@@ -51,7 +51,7 @@ Comprehensive benchmarks comparing ts-mocker against other popular JavaScript/Ty
 
 | Library | ops/s | avg time | margin | vs fastest |
 |---------|-------|----------|--------|------------|
-| **ts-mocker** | 39.63M ops/s | 0.0252ms | ±0.58% | **(fastest)** ✅ |
+| **ts-mocker**| 39.63M ops/s | 0.0252ms | ±0.58% |**(fastest)** ✅ |
 | @ngneat/falso | 18.13M ops/s | 0.0552ms | ±1.20% | 0.46x |
 | casual | 1.99M ops/s | 0.5020ms | ±0.89% | 0.05x |
 | chance | 1.12M ops/s | 0.8969ms | ±1.19% | 0.03x |
@@ -61,7 +61,7 @@ Comprehensive benchmarks comparing ts-mocker against other popular JavaScript/Ty
 
 | Library | ops/s | avg time | margin | vs fastest |
 |---------|-------|----------|--------|------------|
-| **ts-mocker** | 38.55M ops/s | 0.0259ms | ±0.71% | **(fastest)** ✅ |
+| **ts-mocker**| 38.55M ops/s | 0.0259ms | ±0.71% |**(fastest)** ✅ |
 | casual | 18.98M ops/s | 0.0527ms | ±1.08% | 0.49x |
 | @ngneat/falso | 17.93M ops/s | 0.0558ms | ±1.14% | 0.46x |
 | @faker-js/faker | 15.83M ops/s | 0.0632ms | ±0.80% | 0.41x |
@@ -71,7 +71,7 @@ Comprehensive benchmarks comparing ts-mocker against other popular JavaScript/Ty
 
 | Library | ops/s | avg time | margin | vs fastest |
 |---------|-------|----------|--------|------------|
-| **ts-mocker** | 37.64M ops/s | 0.0266ms | ±1.15% | **(fastest)** ✅ |
+| **ts-mocker**| 37.64M ops/s | 0.0266ms | ±1.15% |**(fastest)** ✅ |
 | @ngneat/falso | 17.78M ops/s | 0.0562ms | ±1.09% | 0.47x |
 | casual | 2.32M ops/s | 0.4317ms | ±0.99% | 0.06x |
 | chance | 800.45K ops/s | 1.2493ms | ±1.61% | 0.02x |
@@ -81,7 +81,7 @@ Comprehensive benchmarks comparing ts-mocker against other popular JavaScript/Ty
 
 | Library | ops/s | avg time | margin | vs fastest |
 |---------|-------|----------|--------|------------|
-| **ts-mocker** | 30.65M ops/s | 0.0326ms | ±0.98% | **(fastest)** ✅ |
+| **ts-mocker**| 30.65M ops/s | 0.0326ms | ±0.98% |**(fastest)** ✅ |
 | casual | 21.34M ops/s | 0.0469ms | ±0.65% | 0.70x |
 | @faker-js/faker | 17.78M ops/s | 0.0562ms | ±0.49% | 0.58x |
 | @ngneat/falso | 365.26K ops/s | 2.7378ms | ±0.83% | 0.01x |
@@ -90,7 +90,7 @@ Comprehensive benchmarks comparing ts-mocker against other popular JavaScript/Ty
 
 | Library | ops/s | avg time | margin | vs fastest |
 |---------|-------|----------|--------|------------|
-| **ts-mocker** | 1.02M ops/s | 0.9849ms | ±0.26% | **(fastest)** ✅ |
+| **ts-mocker**| 1.02M ops/s | 0.9849ms | ±0.26% |**(fastest)** ✅ |
 | @ngneat/falso | 555.23K ops/s | 1.8011ms | ±0.52% | 0.55x |
 | @faker-js/faker | 531.61K ops/s | 1.8811ms | ±0.55% | 0.52x |
 | casual | 464.73K ops/s | 2.1518ms | ±0.53% | 0.46x |
@@ -108,7 +108,7 @@ Generates 10,000 complete user objects with:
 
 | Library | Total Time | μs/record | vs fastest |
 |---------|------------|-----------|------------|
-| **ts-mocker** | 7.97ms | 0.7975μs | **(fastest)** ✅ |
+| **ts-mocker**| 7.97ms | 0.7975μs |**(fastest)** ✅ |
 | casual | 25.44ms | 2.5442μs | 0.31x |
 | @ngneat/falso | 28.64ms | 2.8644μs | 0.28x |
 | chance | 33.12ms | 3.3117μs | 0.24x |
@@ -118,7 +118,7 @@ Generates 10,000 complete user objects with:
 
 | Library | Version | Published Size | Files |
 |---------|---------|----------------|-------|
-| **ts-mocker** | (core) | **174 KB** | **38** |
+| **ts-mocker**| (core) |**174 KB**|**38** |
 | **casual** | v1.6.2 | 408 KB | 75 |
 | **@ngneat/falso** | v7.4.0 | 1.16 MB | 399 |
 | **chance** | v1.1.13 | 2.08 MB | 164 |
