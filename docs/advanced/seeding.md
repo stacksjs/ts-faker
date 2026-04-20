@@ -151,7 +151,7 @@ Use the current date as a seed for daily-changing data:
 import { faker } from 'ts-mocker'
 
 // Changes once per day
-const today = new Date().toISOString().split('T')[0]
+const today = new Date().toISOString().split('T').at(0)
 const seed = today.split('-').join('') // "20250103"
 faker.seed(Number(seed))
 

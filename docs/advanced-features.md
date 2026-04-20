@@ -336,7 +336,7 @@ const user = {
 ```typescript
 // Generate multiple users in the same region
 const users = []
-const baseRegion = faker.address.neighborhood({ size: 1 })[0]
+const baseRegion = faker.address.neighborhood({ size: 1 }).at(0)
 
 for (let i = 0; i < 10; i++) {
   const profile = faker.person.profile({

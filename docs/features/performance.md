@@ -169,7 +169,7 @@ Choose the right method for your needs:
 faker.person.firstName() // ✅ Faster, more efficient
 
 // vs
-faker.person.fullName().split(' ')[0] // ❌ Slower, wasteful
+faker.person.fullName().split(' ').at(0) // ❌ Slower, wasteful
 ```
 
 ## Memory Usage

@@ -500,7 +500,7 @@ function generateTimeSeries(days: number) {
     date.setDate(date.getDate() + i)
 
     return {
-      date: date.toISOString().split('T')[0],
+      date: date.toISOString().split('T').at(0),
       users: faker.number.int({ min: 1000, max: 5000 }),
       sessions: faker.number.int({ min: 5000, max: 20000 }),
       revenue: Number(faker.commerce.price({ min: 1000, max: 10000 })),
