@@ -47,6 +47,8 @@
   "types": "./dist/index.d.ts",
   "bin": {
     "@stacksjs/ts-faker": "./dist/bin/cli.js",
+    "faker": "./dist/bin/cli.js",
+    "fake": "./dist/bin/cli.js",
     "mock": "./dist/bin/cli.js"
   },
   "files": [
