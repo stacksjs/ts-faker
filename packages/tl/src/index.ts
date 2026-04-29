@@ -1,2 +1,2 @@
 export { tl } from './tl'
-export type { LocaleDefinition } from 'ts-mocker'
+export type { LocaleDefinition } from '@stacksjs/ts-faker'

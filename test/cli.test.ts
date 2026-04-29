@@ -49,7 +49,7 @@ describe('CLI', () => {
     test('--help shows help information', async () => {
       const { stdout, exitCode } = await execCLI(['--help'])
       expect(exitCode).toBe(0)
-      expect(stdout).toContain('ts-mocker')
+      expect(stdout).toContain('@stacksjs/ts-faker')
       expect(stdout).toContain('generate')
       expect(stdout).toContain('categories')
       expect(stdout).toContain('locales')

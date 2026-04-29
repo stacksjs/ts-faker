@@ -1,4 +1,4 @@
-import type { DeepPartial, LocaleDefinition } from 'ts-mocker'
+import type { DeepPartial, LocaleDefinition } from '@stacksjs/ts-faker'
 
 export const af_ZA: DeepPartial<LocaleDefinition> = {
   title: 'Afrikaans (South Africa)',

@@ -18,7 +18,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/af-za": {
@@ -31,7 +31,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/ar": {
@@ -44,7 +44,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/az": {
@@ -57,7 +57,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/benchmarks": {
@@ -66,20 +66,20 @@
       "dependencies": {
         "@faker-js/faker": "^10.3.0",
         "@ngneat/falso": "^8.0.2",
+        "@stacksjs/ts-faker": "workspace:*",
         "casual": "^1.6.2",
         "chance": "^1.1.13",
         "tinybench": "^5.1.0",
-        "ts-mocker": "workspace:*",
       },
       "devDependencies": {
         "@types/chance": "^1.1.7",
       },
     },
     "packages/core": {
-      "name": "ts-mocker",
+      "name": "@stacksjs/ts-faker",
       "version": "0.1.7",
       "bin": {
-        "ts-mocker": "./dist/bin/cli.js",
+        "@stacksjs/ts-faker": "./dist/bin/cli.js",
         "mock": "./dist/bin/cli.js",
       },
       "dependencies": {
@@ -100,7 +100,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/da": {
@@ -113,7 +113,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/de": {
@@ -126,7 +126,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/de-at": {
@@ -139,7 +139,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/de-ch": {
@@ -152,7 +152,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en": {
@@ -165,7 +165,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en-ca": {
@@ -178,7 +178,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en-gb": {
@@ -191,7 +191,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en-gh": {
@@ -204,7 +204,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en-hk": {
@@ -217,7 +217,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en-ie": {
@@ -230,7 +230,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en-in": {
@@ -243,7 +243,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en-ng": {
@@ -256,7 +256,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en-us": {
@@ -269,7 +269,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/en-za": {
@@ -282,7 +282,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/eo": {
@@ -295,7 +295,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/es": {
@@ -308,7 +308,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/es-mx": {
@@ -321,7 +321,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/fa": {
@@ -334,7 +334,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/fi": {
@@ -347,7 +347,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/fr": {
@@ -360,7 +360,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/fr-be": {
@@ -373,7 +373,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/fr-ca": {
@@ -386,7 +386,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/fr-ch": {
@@ -399,7 +399,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/fr-lu": {
@@ -412,7 +412,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/fr-sn": {
@@ -425,7 +425,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/he": {
@@ -438,7 +438,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/hi": {
@@ -451,7 +451,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/it": {
@@ -464,7 +464,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/ja": {
@@ -477,7 +477,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/ko": {
@@ -490,7 +490,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/nl": {
@@ -503,7 +503,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/no": {
@@ -516,7 +516,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/pl": {
@@ -529,7 +529,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/pt": {
@@ -542,7 +542,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/pt-mz": {
@@ -555,7 +555,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/sv": {
@@ -568,7 +568,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/tl": {
@@ -581,7 +581,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/tr": {
@@ -594,7 +594,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/uk": {
@@ -607,7 +607,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/zh": {
@@ -620,7 +620,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/zh-cn": {
@@ -633,7 +633,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/zh-tw": {
@@ -646,7 +646,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/zu": {
@@ -659,7 +659,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
     "packages/zu-za": {
@@ -672,7 +672,7 @@
         "typescript": "^5.9.3",
       },
       "peerDependencies": {
-        "ts-mocker": "workspace:*",
+        "@stacksjs/ts-faker": "workspace:*",
       },
     },
   },
@@ -810,6 +810,8 @@
     "@stacksjs/ts-cloud": ["@stacksjs/ts-cloud@0.2.3", "", { "dependencies": { "@stacksjs/ts-xml": "^0.1.0", "@ts-cloud/aws-types": "0.2.3", "@ts-cloud/core": "0.2.3" }, "bin": { "cloud": "./dist/bin/cli.js" } }, "sha512-KHBwsIGgeTYT3f+OF7pU+EcpqKZRICmv6u8MnZz6Tk7wBFb2CPFIRgZvQarpDxxmK0R9KOFEaOV2gFIBa4AgxA=="],
 
     "@stacksjs/ts-craft": ["@stacksjs/ts-craft@0.0.2", "", { "dependencies": { "archiver": "^7.0.1" }, "bin": { "craft": "./bin/cli.ts" } }, "sha512-09vAI4BJuXXNClFoOE6f1acrKqV77U7lObmOjnRteSqDoX7WZJU0HnMhrjaX96lF9EdPIozfIp59kPq7EZwLYQ=="],
+
+    "@stacksjs/ts-faker": ["@stacksjs/ts-faker@workspace:packages/core"],
 
     "@stacksjs/ts-md": ["@stacksjs/ts-md@0.1.1", "", { "bin": { "md": "./bin/cli.ts" } }, "sha512-kvsSg7S3vHq65fnHIRggTLudN4n1sjkos86xLB62V6PVRa8iosYAmFKVDTGaJk+0MdsIoRwQbJ2vLWVcNQsgGw=="],
 
@@ -1018,8 +1020,6 @@
     "ts-cloud-types": ["ts-cloud-types@0.1.14", "", {}, "sha512-lOqgwNvcF51JC3b0k+KG0JdkITcNlvAtoXy5kQPAcJSmtpm0m/1ptgrGGF+srgrqreiRvpGficP4e7U3/c7sww=="],
 
     "ts-error-handling": ["ts-error-handling@0.1.1", "", {}, "sha512-d4VqdX0bJ+jvOYNsY58isJgrEr806Q9cjef5+1UO/kIn1M/+YYSwpR6fqdRhn9XXVASJLSzNmcnBSdl0fRCjDg=="],
-
-    "ts-mocker": ["ts-mocker@workspace:packages/core"],
 
     "ts-pantry": ["ts-pantry@0.8.18", "", { "dependencies": { "@stacksjs/ts-cloud": "^0.1.2", "bunfig": "^0.15.6", "ts-web-scraper": "^0.1.1" }, "bin": { "pantry-ts": "./scripts/pantry-cli.ts", "ts-pantry": "./dist/bin/cli.js" } }, "sha512-JQ7jOJIHBROl/fn2ROqBMgA/PMbQycrgDuFoS7thH7vW62eHYMTulePkksWJs55p68zIBuAwqRuFx22rRcoPzQ=="],
 

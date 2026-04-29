@@ -113,4 +113,40 @@ export class DateModule {
   dateTimeBetween(options: DateOptions): Date {
     return this.between(options)
   }
+
+  /**
+   * Generate a random date of birth.
+   *
+   * Two modes mirror @faker-js/faker so existing factories migrate cleanly:
+   *
+   * - `mode: 'age'` (default) takes age bounds in years and returns a date
+   *   that, evaluated against `today`, sits in `[min, max]` years.
+   * - `mode: 'year'` takes calendar year bounds and returns a random date
+   *   in any of those years.
+   *
+   * Defaults match @faker-js/faker: 18–80 years old in age mode.
+   *
+   * @example faker.date.birthdate({ min: 21, max: 70, mode: 'age' })
+   * @example faker.date.birthdate({ min: 1950, max: 2005, mode: 'year' })
+   */
+  birthdate(options?: { min?: number, max?: number, mode?: 'age' | 'year', refDate?: Date }): Date {
+    const mode = options?.mode ?? 'age'
+    const refDate = options?.refDate ?? new Date()
+
+    if (mode === 'year') {
+      const minYear = options?.min ?? 1900
+      const maxYear = options?.max ?? refDate.getUTCFullYear()
+      const from = new Date(Date.UTC(minYear, 0, 1))
+      const to = new Date(Date.UTC(maxYear, 11, 31, 23, 59, 59, 999))
+      return this.between({ from, to })
+    }
+
+    // age mode: convert to year bounds. min age → most recent date, max age → oldest date.
+    const minAge = Math.max(0, options?.min ?? 18)
+    const maxAge = Math.max(minAge, options?.max ?? 80)
+    const ms = (yrs: number): number => yrs * 365.25 * 24 * 60 * 60 * 1000
+    const from = new Date(refDate.getTime() - ms(maxAge))
+    const to = new Date(refDate.getTime() - ms(minAge))
+    return this.between({ from, to })
+  }
 }

@@ -1,0 +1,664 @@
+{
+  "version": "1.0.0",
+  "lockfileVersion": 2,
+  "workspaces": {
+    "": {
+      "name": "ts-mocker",
+      "devDependencies": {
+        "better-dx": "^0.2.7"
+      }
+    },
+    "packages/af": {
+      "name": "@mock-locale/af",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/af-za": {
+      "name": "@mock-locale/af-za",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/ar": {
+      "name": "@mock-locale/ar",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/az": {
+      "name": "@mock-locale/az",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/benchmarks": {
+      "name": "@ts-mocker/benchmarks",
+      "version": "0.1.7",
+      "dependencies": {
+        "@faker-js/faker": "^10.3.0",
+        "@ngneat/falso": "^8.0.2",
+        "casual": "^1.6.2",
+        "chance": "^1.1.13",
+        "tinybench": "^5.1.0",
+        "ts-mocker": "workspace:*"
+      },
+      "devDependencies": {
+        "@types/chance": "^1.1.7"
+      }
+    },
+    "packages/core": {
+      "name": "ts-mocker",
+      "version": "0.1.7",
+      "dependencies": {
+        "@stacksjs/clapp": "^0.2.0"
+      },
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bunfig": "^0.15.6"
+      }
+    },
+    "packages/cs": {
+      "name": "@mock-locale/cs",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/da": {
+      "name": "@mock-locale/da",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/de": {
+      "name": "@mock-locale/de",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/de-at": {
+      "name": "@mock-locale/de-at",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/de-ch": {
+      "name": "@mock-locale/de-ch",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en": {
+      "name": "@mock-locale/en",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en-ca": {
+      "name": "@mock-locale/en-ca",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en-gb": {
+      "name": "@mock-locale/en-gb",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en-gh": {
+      "name": "@mock-locale/en-gh",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en-hk": {
+      "name": "@mock-locale/en-hk",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en-ie": {
+      "name": "@mock-locale/en-ie",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en-in": {
+      "name": "@mock-locale/en-in",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en-ng": {
+      "name": "@mock-locale/en-ng",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en-us": {
+      "name": "@mock-locale/en-us",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/en-za": {
+      "name": "@mock-locale/en-za",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/eo": {
+      "name": "@mock-locale/eo",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/es": {
+      "name": "@mock-locale/es",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/es-mx": {
+      "name": "@mock-locale/es-mx",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/fa": {
+      "name": "@mock-locale/fa",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/fi": {
+      "name": "@mock-locale/fi",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/fr": {
+      "name": "@mock-locale/fr",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/fr-be": {
+      "name": "@mock-locale/fr-be",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/fr-ca": {
+      "name": "@mock-locale/fr-ca",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/fr-ch": {
+      "name": "@mock-locale/fr-ch",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/fr-lu": {
+      "name": "@mock-locale/fr-lu",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/fr-sn": {
+      "name": "@mock-locale/fr-sn",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/he": {
+      "name": "@mock-locale/he",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/hi": {
+      "name": "@mock-locale/hi",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/it": {
+      "name": "@mock-locale/it",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/ja": {
+      "name": "@mock-locale/ja",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/ko": {
+      "name": "@mock-locale/ko",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/nl": {
+      "name": "@mock-locale/nl",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/no": {
+      "name": "@mock-locale/no",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/pl": {
+      "name": "@mock-locale/pl",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/pt": {
+      "name": "@mock-locale/pt",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/pt-mz": {
+      "name": "@mock-locale/pt-mz",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/sv": {
+      "name": "@mock-locale/sv",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/tl": {
+      "name": "@mock-locale/tl",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/tr": {
+      "name": "@mock-locale/tr",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/uk": {
+      "name": "@mock-locale/uk",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/zh": {
+      "name": "@mock-locale/zh",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/zh-cn": {
+      "name": "@mock-locale/zh-cn",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/zh-tw": {
+      "name": "@mock-locale/zh-tw",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/zu": {
+      "name": "@mock-locale/zu",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    },
+    "packages/zu-za": {
+      "name": "@mock-locale/zu-za",
+      "version": "0.1.7",
+      "devDependencies": {
+        "@types/bun": "^1.3.1",
+        "bun-plugin-dtsx": "0.21.17",
+        "bunfig": "^0.15.6",
+        "typescript": "^5.9.3"
+      }
+    }
+  },
+  "packages": {
+    "@faker-js/faker@10.3.0": {
+      "name": "@faker-js/faker",
+      "version": "10.3.0",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/@faker-js/faker/-/faker-10.3.0.tgz",
+      "integrity": "sha512-It0Sne6P3szg7JIi6CgKbvTZoMjxBZhcv91ZrqrNuaZQfB5WoqYYbzCUOq89YR+VY8juY9M1vDWmDDa2TzfXCw=="
+    },
+    "@ngneat/falso@8.0.2": {
+      "name": "@ngneat/falso",
+      "version": "8.0.2",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/@ngneat/falso/-/falso-8.0.2.tgz",
+      "integrity": "sha512-vhPtuoHoxE5JGWPSPBqEyTXcjI4MAn8GllR+Vs8FfpAQu2sQRd4PJc3e8kc9vdbdhYHx1C9HmbECgtGLK30z4w==",
+      "dependencies": {
+        "seedrandom": "3.0.5",
+        "uuid": "8.3.2"
+      }
+    },
+    "@stacksjs/clapp@0.2.0": {
+      "name": "@stacksjs/clapp",
+      "version": "0.2.0",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/@stacksjs/clapp/-/clapp-0.2.0.tgz",
+      "integrity": "sha512-dSqnbeZjXnQLLvVxC5NU7D9Vpjxc6cC9Bo2ZwaqjgruK7pbVoFCI0goc9Mtf/lfSTbTx6Uvv/mbY7+cOW/j3Og==",
+      "dependencies": {
+        "mri": "^1.2.0",
+        "wrap-ansi": "^9.0.0"
+      },
+      "bin": {
+        "@stacksjs/clapp": "./dist/bin/cli.js",
+        "clapp": "./dist/bin/cli.js"
+      }
+    },
+    "@types/bun@1.3.11": {
+      "name": "@types/bun",
+      "version": "1.3.11",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/@types/bun/-/bun-1.3.11.tgz",
+      "integrity": "sha512-5vPne5QvtpjGpsGYXiFyycfpDF2ECyPcTSsFBMa0fraoxiQyMJ3SmuQIGhzPg2WJuWxVBoxWJ2kClYTcw/4fAg==",
+      "dependencies": {
+        "bun-types": "1.3.10"
+      }
+    },
+    "@types/chance@1.1.7": {
+      "name": "@types/chance",
+      "version": "1.1.7",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/@types/chance/-/chance-1.1.7.tgz",
+      "integrity": "sha512-40you9610GTQPJyvjMBgmj9wiDO6qXhbfjizNYod/fmvLSfUUxURAJMTD8tjmbcZSsyYE5iEUox61AAcCjW/wQ=="
+    },
+    "better-dx@0.2.7": {
+      "name": "better-dx",
+      "version": "0.2.7",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/better-dx/-/better-dx-0.2.7.tgz",
+      "integrity": "sha512-J5Msp8jYKl4/YrTt/IWE32ZZg36/+M5klkAhSZb6Av5LGuFd7tylTerKq/8AwZxAYl9h8ZXV79Paygc+YjmCyw==",
+      "peerDependencies": {
+        "@stacksjs/bumpx": "^0.2.4",
+        "@stacksjs/bunpress": "^0.1.1",
+        "@stacksjs/clarity": "^0.3.24",
+        "@stacksjs/gitlint": "^0.1.5",
+        "@stacksjs/logsmith": "^0.2.1",
+        "@types/bun": "^1.3.9",
+        "buddy-bot": "^0.9.16",
+        "bun-git-hooks": "^0.3.1",
+        "bun-plugin-dtsx": "^0.9.10",
+        "bunfig": "^0.15.6",
+        "pickier": "^0.1.20",
+        "ts-error-handling": "^0.1.1",
+        "typescript": "^5.9.3"
+      },
+      "bin": {
+        "better-dx": "./dist/bin/cli.js",
+        "dx": "./dist/bin/cli.js"
+      }
+    },
+    "bun-plugin-dtsx@0.21.17": {
+      "name": "bun-plugin-dtsx",
+      "version": "0.21.17",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/bun-plugin-dtsx/-/bun-plugin-dtsx-0.21.17.tgz",
+      "integrity": "sha512-gikZdPs8f7aFPREb+gBn7kaDdjpfQSLIPpVbUI+I5dusAlENvlJmKQj06aq1oS3mP7yg3gdQJBRg+PlzUV5h9g==",
+      "dependencies": {
+        "@stacksjs/dtsx": "^0.9.8"
+      }
+    },
+    "bunfig@0.15.6": {
+      "name": "bunfig",
+      "version": "0.15.6",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/bunfig/-/bunfig-0.15.6.tgz",
+      "integrity": "sha512-7ynPmrn1dN5F+0DtUVY0Vo2MZOOnSdb6hpQePwABEYIJ+d/rSb3vaOVUs3MFxwxWuaVc1FEStVJG6+kCgbLuyg==",
+      "dependencies": {
+        "@stacksjs/clapp": "^0.2.0",
+        "@stacksjs/clarity": "^0.3.24"
+      },
+      "bin": {
+        "bunfig": "./bin/cli.js"
+      }
+    },
+    "casual@1.6.2": {
+      "name": "casual",
+      "version": "1.6.2",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/casual/-/casual-1.6.2.tgz",
+      "integrity": "sha512-NQObL800rg32KZ9bBajHbyDjxLXxxuShChQg7A4tbSeG3n1t7VYGOSkzFSI9gkSgOHp+xilEJ7G0L5l6M30KYA==",
+      "dependencies": {
+        "mersenne-twister": "^1.0.1",
+        "moment": "^2.15.2"
+      }
+    },
+    "chance@1.1.13": {
+      "name": "chance",
+      "version": "1.1.13",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/chance/-/chance-1.1.13.tgz",
+      "integrity": "sha512-V6lQCljcLznE7tUYUM9EOAnnKXbctE6j/rdQkYOHIWbfGQbrzTsAXNW9CdU5XCo4ArXQCj/rb6HgxPlmGJcaUg=="
+    },
+    "tinybench@5.1.0": {
+      "name": "tinybench",
+      "version": "5.1.0",
+      "source": "npm",
+      "resolved": "https://registry.npmjs.org/tinybench/-/tinybench-5.1.0.tgz",
+      "integrity": "sha512-LXKNtFualiKOm6gADe1UXPtf8+Nfn1CtPMEHAT33Fd2YjQatrujkDcK0+4wRC1X6t7fxUDXUs6BsvuIgfkDgDg=="
+    },
+    "typescript@^5.9.3": {
+      "name": "typescript",
+      "version": "^5.9.3",
+      "source": "npm",
+      "bin": {
+        "tsc": "./bin/tsc",
+        "tsserver": "./bin/tsserver"
+      }
+    }
+  }
+}

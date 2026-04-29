@@ -41,7 +41,7 @@ function printResults(bench: Bench, title: string) {
     if (!result)
       return
 
-    const isTsMocker = task.name.includes('ts-mocker')
+    const isTsMocker = task.name.includes('@stacksjs/ts-faker')
     const isFastest = task === fastest
     const color = isFastest ? colors.green : isTsMocker ? colors.yellow : colors.reset
 
@@ -70,7 +70,7 @@ async function runBenchmarks() {
   // Benchmark 1: Full Name Generation
   const nameBench = new Bench({ time: 750 })
   nameBench
-    .add('ts-mocker', () => {
+    .add('@stacksjs/ts-faker', () => {
       faker.person.fullName()
     })
     .add('@faker-js/faker', () => {
@@ -92,7 +92,7 @@ async function runBenchmarks() {
   // Benchmark 2: Email Generation
   const emailBench = new Bench({ time: 750 })
   emailBench
-    .add('ts-mocker', () => {
+    .add('@stacksjs/ts-faker', () => {
       faker.internet.email()
     })
     .add('@faker-js/faker', () => {
@@ -114,7 +114,7 @@ async function runBenchmarks() {
   // Benchmark 3: Phone Number Generation
   const phoneBench = new Bench({ time: 750 })
   phoneBench
-    .add('ts-mocker', () => {
+    .add('@stacksjs/ts-faker', () => {
       faker.phone.number()
     })
     .add('@faker-js/faker', () => {
@@ -136,7 +136,7 @@ async function runBenchmarks() {
   // Benchmark 4: City Generation
   const cityBench = new Bench({ time: 750 })
   cityBench
-    .add('ts-mocker', () => {
+    .add('@stacksjs/ts-faker', () => {
       faker.address.city()
     })
     .add('@faker-js/faker', () => {
@@ -158,7 +158,7 @@ async function runBenchmarks() {
   // Benchmark 5: Country Generation
   const countryBench = new Bench({ time: 750 })
   countryBench
-    .add('ts-mocker', () => {
+    .add('@stacksjs/ts-faker', () => {
       faker.address.country()
     })
     .add('@faker-js/faker', () => {
@@ -180,7 +180,7 @@ async function runBenchmarks() {
   // Benchmark 6: Company Name Generation
   const companyBench = new Bench({ time: 750 })
   companyBench
-    .add('ts-mocker', () => {
+    .add('@stacksjs/ts-faker', () => {
       faker.company.name()
     })
     .add('@faker-js/faker', () => {
@@ -202,7 +202,7 @@ async function runBenchmarks() {
   // Benchmark 7: Product Generation
   const productBench = new Bench({ time: 750 })
   productBench
-    .add('ts-mocker', () => {
+    .add('@stacksjs/ts-faker', () => {
       faker.commerce.product()
     })
     .add('@faker-js/faker', () => {
@@ -221,7 +221,7 @@ async function runBenchmarks() {
   // Benchmark 8: UUID Generation
   const uuidBench = new Bench({ time: 750 })
   uuidBench
-    .add('ts-mocker', () => {
+    .add('@stacksjs/ts-faker', () => {
       faker.string.uuid()
     })
     .add('@faker-js/faker', () => {
@@ -312,7 +312,7 @@ async function runBenchmarks() {
   const falsoDuration = performance.now() - falsoStart
 
   const results = [
-    { name: 'ts-mocker', duration: nanoDuration },
+    { name: '@stacksjs/ts-faker', duration: nanoDuration },
     { name: '@faker-js/faker', duration: fakerjsDuration },
     { name: 'chance', duration: chanceDuration },
     { name: 'casual', duration: casualDuration },
@@ -320,7 +320,7 @@ async function runBenchmarks() {
   ].sort((a, b) => a.duration - b.duration)
 
   results.forEach((result, index) => {
-    const isTsMocker = result.name === 'ts-mocker'
+    const isTsMocker = result.name === '@stacksjs/ts-faker'
     const isFastest = index === 0
     const color = isFastest ? colors.green : isTsMocker ? colors.yellow : colors.reset
 
@@ -354,11 +354,11 @@ async function runBenchmarks() {
     uuidBench,
   ].filter((bench) => {
     const sorted = bench.tasks.sort((a, b) => (b.result?.hz || 0) - (a.result?.hz || 0))
-    return sorted[0]?.name === 'ts-mocker'
+    return sorted[0]?.name === '@stacksjs/ts-faker'
   }).length
 
   const totalBenchmarks = 9 // 8 single + 1 complex
-  const nanoWinsTotal = results[0].name === 'ts-mocker' ? nanoWins + 1 : nanoWins
+  const nanoWinsTotal = results[0].name === '@stacksjs/ts-faker' ? nanoWins + 1 : nanoWins
 
   console.log(`${colors.green}✓ ts-mocker won ${nanoWinsTotal} out of ${totalBenchmarks} benchmarks${colors.reset}`)
   console.log(`${colors.cyan}ℹ Average performance advantage: ${(fakerjsDuration / nanoDuration).toFixed(2)}x faster than @faker-js/faker${colors.reset}`)

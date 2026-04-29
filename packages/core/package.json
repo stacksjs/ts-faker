@@ -1,5 +1,5 @@
 {
-  "name": "ts-mocker",
+  "name": "@stacksjs/ts-faker",
   "type": "module",
   "version": "0.1.7",
   "description": "ts-mocker is a performance-focused and lightweight faker/data mocking library for TypeScript.",
@@ -46,7 +46,7 @@
   "module": "./dist/src/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "ts-mocker": "./dist/bin/cli.js",
+    "@stacksjs/ts-faker": "./dist/bin/cli.js",
     "mock": "./dist/bin/cli.js"
   },
   "files": [

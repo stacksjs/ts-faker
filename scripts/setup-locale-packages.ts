@@ -28,7 +28,7 @@ for (const locale of locales) {
   }
 
   // Create index.ts
-  const indexContent = `export { ${locale} } from './${locale}'\nexport type { LocaleDefinition } from 'ts-mocker'\n`
+  const indexContent = `export { ${locale} } from './${locale}'\nexport type { LocaleDefinition } from '@stacksjs/ts-faker'\n`
   await Bun.write(join(srcDir, 'index.ts'), indexContent)
 
   // Create package.json
@@ -47,7 +47,7 @@ for (const locale of locales) {
     bugs: {
       url: 'https://github.com/stacksjs/ts-mocker/issues',
     },
-    keywords: ['ts-mocker', 'locale', locale, 'fake-data', 'test-data'],
+    keywords: ['@stacksjs/ts-faker', 'locale', locale, 'fake-data', 'test-data'],
     exports: {
       '.': {
         types: './dist/index.d.ts',
@@ -62,7 +62,7 @@ for (const locale of locales) {
       typecheck: 'bun --bun tsc --noEmit',
     },
     peerDependencies: {
-      'ts-mocker': 'workspace:*',
+      '@stacksjs/ts-faker': 'workspace:*',
     },
     devDependencies: {
       '@types/bun': '^1.2.23',

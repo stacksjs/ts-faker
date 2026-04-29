@@ -1,5 +1,5 @@
 {
-  "name": "ts-mocker",
+  "name": "@stacksjs/ts-faker",
   "type": "module",
   "version": "0.1.7",
   "private": true,
@@ -49,7 +49,7 @@
   "module": "./packages/core/dist/src/index.js",
   "types": "./packages/core/dist/index.d.ts",
   "bin": {
-    "ts-mocker": "./packages/core/dist/bin/cli.js",
+    "@stacksjs/ts-faker": "./packages/core/dist/bin/cli.js",
     "mock": "./packages/core/dist/bin/cli.js"
   },
   "files": [
@@ -84,6 +84,9 @@
     "changelog": "bunx --bun @stacksjs/logsmith --verbose",
     "changelog:generate": "bunx --bun @stacksjs/logsmith --output CHANGELOG.md",
     "release": "bun run changelog:generate && bunx --bun @stacksjs/bumpx prompt --recursive",
+    "release:patch": "bun run changelog:generate && bunx --bun @stacksjs/bumpx patch --recursive",
+    "release:minor": "bun run changelog:generate && bunx --bun @stacksjs/bumpx minor --recursive",
+    "release:major": "bun run changelog:generate && bunx --bun @stacksjs/bumpx major --recursive",
     "dev:docs": "bun --bun bunpress dev docs",
     "build:docs": "bun --bun bunpress build docs",
     "preview:docs": "bun --bun bunpress preview docs",

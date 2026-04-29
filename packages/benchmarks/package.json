@@ -16,7 +16,7 @@
     "casual": "^1.6.2",
     "chance": "^1.1.13",
     "tinybench": "^5.1.0",
-    "ts-mocker": "workspace:*"
+    "@stacksjs/ts-faker": "workspace:*"
   },
   "devDependencies": {
     "@types/chance": "^1.1.7"

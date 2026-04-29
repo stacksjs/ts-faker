@@ -1,7 +1,7 @@
 import type { BunpressConfig } from 'bunpress'
 
 const config: BunpressConfig = {
-  name: 'ts-mocker',
+  name: '@stacksjs/ts-faker',
   description: 'Performance-focused TypeScript faker library with comprehensive locale support',
   url: 'https://ts-mocker.stacksjs.org',
   theme: 'docs',

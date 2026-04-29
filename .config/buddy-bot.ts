@@ -3,7 +3,7 @@ import type { BuddyBotConfig } from 'buddy-bot'
 const config: BuddyBotConfig = {
   repository: {
     owner: 'stacksjs',
-    name: 'ts-mocker',
+    name: '@stacksjs/ts-faker',
     provider: 'github',
     // token: process.env.BUDDY_BOT_TOKEN,
   },

@@ -13,11 +13,12 @@ let _config: MockConfig | null = null
 export async function getConfig(): Promise<MockConfig> {
   if (!_config) {
     _config = await loadConfig({
-  name: 'mock',
-  alias: 'faker',
-  defaultConfig,
-})
+      name: 'faker',
+      alias: 'mock',
+      defaultConfig,
+    })
   }
+
   return _config
 }
 

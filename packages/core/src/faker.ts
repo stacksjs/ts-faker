@@ -33,7 +33,7 @@ import { Random } from './random'
  *
  * @example
  * ```ts
- * import { Faker } from 'ts-mocker'
+ * import { Faker } from '@stacksjs/ts-faker'
  *
  * const faker = new Faker()
  * console.log(faker.person.firstName()) // 'John'

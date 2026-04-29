@@ -1,4 +1,4 @@
-import type { LocaleDefinition } from 'ts-mocker'
+import type { LocaleDefinition } from '@stacksjs/ts-faker'
 
 export const af: LocaleDefinition = {
   title: 'Afrikaans',

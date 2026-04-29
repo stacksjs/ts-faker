@@ -1,4 +1,4 @@
-import type { MockConfig } from 'ts-mocker'
+import type { MockConfig } from '@stacksjs/ts-faker'
 
 const config: MockConfig = {
   // Automatically install missing locale packages when needed
