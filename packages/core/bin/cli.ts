@@ -3,7 +3,7 @@ import { CLI } from '@stacksjs/clapp'
 import { version } from '../package.json'
 import { Faker, faker } from '../src/index'
 
-const cli = new CLI('mock')
+const cli = new CLI('fake')
 
 // Generate command - generate random data
 cli
@@ -12,9 +12,9 @@ cli
   .option('--count <count>', 'Number of items to generate', { default: 1 })
   .option('--seed <seed>', 'Seed for reproducible results')
   .option('--json', 'Output as JSON')
-  .example('mock generate person fullName')
-  .example('mock generate person fullName --locale es --count 5')
-  .example('mock generate address city --seed 12345 --json')
+  .example('fake generate person fullName')
+  .example('fake generate person fullName --locale es --count 5')
+  .example('fake generate address city --seed 12345 --json')
   .action(async (category: string, method: string, options: any) => {
     try {
       // Create faker with async locale loading
@@ -83,19 +83,19 @@ cli
 
     console.log('\nAvailable Categories:\n')
     categories.forEach(cat => console.log(`  ${cat}`))
-    console.log('\nUse "mock methods <category>" to see available methods for a category')
+    console.log('\nUse "fake methods <category>" to see available methods for a category')
   })
 
 // Methods command - list methods for a category
 cli
   .command('methods <category>', 'List all methods for a category')
-  .example('mock methods person')
-  .example('mock methods food')
+  .example('fake methods person')
+  .example('fake methods food')
   .action((category: string) => {
     const fakerCategory = (faker as any)[category]
     if (!fakerCategory) {
       console.error(`Error: Category '${category}' not found`)
-      console.log('\nUse "mock categories" to see all available categories')
+      console.log('\nUse "fake categories" to see all available categories')
       process.exit(1)
     }
 
@@ -166,15 +166,15 @@ cli
       console.log('\nℹ️  Only English (en) is bundled by default.')
       console.log('   Other locales are loaded dynamically when first used.')
       console.log('\nUse --locale <code> with the generate command')
-      console.log('Example: mock generate person fullName --locale es')
+      console.log('Example: fake generate person fullName --locale es')
     }
   })
 
 // Preload locales command
 cli
   .command('locales:preload [locales...]', 'Preload specific locales for faster access')
-  .example('mock locales:preload es fr de')
-  .example('mock locales:preload all')
+  .example('fake locales:preload es fr de')
+  .example('fake locales:preload all')
   .action(async (locales: string[]) => {
     try {
       const localesToLoad = locales.includes('all')
@@ -183,8 +183,8 @@ cli
 
       if (localesToLoad.length === 0) {
         console.error('Error: Please specify locales to preload or use "all"')
-        console.log('\nExample: mock locales:preload es fr de')
-        console.log('Example: mock locales:preload all')
+        console.log('\nExample: fake locales:preload es fr de')
+        console.log('Example: fake locales:preload all')
         process.exit(1)
       }
 
@@ -207,9 +207,9 @@ cli
   .option('--locale <locale>', 'Locale to use', { default: 'en' })
   .option('--seed <seed>', 'Seed for reproducible results')
   .option('--template <template>', 'Template: user, product, address, company', { default: 'user' })
-  .example('mock batch 10')
-  .example('mock batch 5 --template product --locale es')
-  .example('mock batch 3 --template user --seed 12345')
+  .example('fake batch 10')
+  .example('fake batch 5 --template product --locale es')
+  .example('fake batch 3 --template user --seed 12345')
   .action(async (count: string, options: any) => {
     try {
       // Set locale
@@ -278,8 +278,8 @@ cli
   .option('--category <category>', 'Category to use', { default: 'person' })
   .option('--method <method>', 'Method to use')
   .option('--count <count>', 'Number of items to generate', { default: 5 })
-  .example('mock seed 12345')
-  .example('mock seed 42 --category food --method dish --count 3')
+  .example('fake seed 12345')
+  .example('fake seed 42 --category food --method dish --count 3')
   .action(async (seed: string, options: any) => {
     try {
       faker.seed(Number(seed))
@@ -318,8 +318,8 @@ cli
     }
   })
 
-cli.command('version', 'Show the version of mock').action(() => {
-  console.log(`mock v${version}`)
+cli.command('version', 'Show the version of fake').action(() => {
+  console.log(`fake v${version}`)
 })
 
 cli.version(version)
