@@ -1,7 +1,7 @@
 {
   "name": "@mock-locale/en-ng",
   "type": "module",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "English (Nigeria) locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

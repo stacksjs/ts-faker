@@ -1,7 +1,7 @@
 {
   "name": "@mock-locale/pt-mz",
   "type": "module",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Portuguese (Mozambique) locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

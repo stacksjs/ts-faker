@@ -1,3 +1,68 @@
+[Compare changes](https://github.com/stacksjs/ts-mocker/compare/v0.1.7...v0.1.8)
+
+### 🐛 Bug Fixes
+
+- add setup-bun to publish-commit job ([bbfd7ef](https://github.com/stacksjs/ts-mocker/commit/bbfd7ef)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- resolve typecheck errors ([8fbee05](https://github.com/stacksjs/ts-mocker/commit/8fbee05)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 🧹 Chores
+
+- release v0.1.8 ([d04d4d3](https://github.com/stacksjs/ts-mocker/commit/d04d4d3)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([1d36b55](https://github.com/stacksjs/ts-mocker/commit/1d36b55)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([e406b96](https://github.com/stacksjs/ts-mocker/commit/e406b96)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([6b2df55](https://github.com/stacksjs/ts-mocker/commit/6b2df55)) _(by Chris <chrisbreuer93@gmail.com>)_
+- fresh install to pick up dtsx 0.9.14 and bunfig 0.15.9 ([0a445af](https://github.com/stacksjs/ts-mocker/commit/0a445af)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fresh install to pick up pickier 0.1.21 ([df9b158](https://github.com/stacksjs/ts-mocker/commit/df9b158)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fix lint errors ([83a58e5](https://github.com/stacksjs/ts-mocker/commit/83a58e5)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- auto-fix lint errors ([22d1bbf](https://github.com/stacksjs/ts-mocker/commit/22d1bbf)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- include md in pickier lint extensions ([09fce1a](https://github.com/stacksjs/ts-mocker/commit/09fce1a)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- minor updates ([c3e6971](https://github.com/stacksjs/ts-mocker/commit/c3e6971)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- update dependencies ([8bc4a33](https://github.com/stacksjs/ts-mocker/commit/8bc4a33)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- repo cleanup and modernization ([29a40a0](https://github.com/stacksjs/ts-mocker/commit/29a40a0)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- add git-hooks config ([25f24e1](https://github.com/stacksjs/ts-mocker/commit/25f24e1)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- use Pantry action for publish-commit and add job dependencies ([f24177e](https://github.com/stacksjs/ts-mocker/commit/f24177e)) _(by Chris <chrisbreuer93@gmail.com>)_
+- update better-dx to ^0.2.7 ([0440fc4](https://github.com/stacksjs/ts-mocker/commit/0440fc4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- enrich CLAUDE.md with detailed project context from README ([b42456c](https://github.com/stacksjs/ts-mocker/commit/b42456c)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- update CLAUDE.md with project context and crosswind details ([4867135](https://github.com/stacksjs/ts-mocker/commit/4867135)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- add proper claude code guidelines ([0828aa4](https://github.com/stacksjs/ts-mocker/commit/0828aa4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/ts-mocker/compare/v0.1.7...HEAD)
+
+### 🐛 Bug Fixes
+
+- add setup-bun to publish-commit job ([bbfd7ef](https://github.com/stacksjs/ts-mocker/commit/bbfd7ef)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- resolve typecheck errors ([8fbee05](https://github.com/stacksjs/ts-mocker/commit/8fbee05)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 🧹 Chores
+
+- wip ([1d36b55](https://github.com/stacksjs/ts-mocker/commit/1d36b55)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([e406b96](https://github.com/stacksjs/ts-mocker/commit/e406b96)) _(by Chris <chrisbreuer93@gmail.com>)_
+- wip ([6b2df55](https://github.com/stacksjs/ts-mocker/commit/6b2df55)) _(by Chris <chrisbreuer93@gmail.com>)_
+- fresh install to pick up dtsx 0.9.14 and bunfig 0.15.9 ([0a445af](https://github.com/stacksjs/ts-mocker/commit/0a445af)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fresh install to pick up pickier 0.1.21 ([df9b158](https://github.com/stacksjs/ts-mocker/commit/df9b158)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- fix lint errors ([83a58e5](https://github.com/stacksjs/ts-mocker/commit/83a58e5)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- auto-fix lint errors ([22d1bbf](https://github.com/stacksjs/ts-mocker/commit/22d1bbf)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- include md in pickier lint extensions ([09fce1a](https://github.com/stacksjs/ts-mocker/commit/09fce1a)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- minor updates ([c3e6971](https://github.com/stacksjs/ts-mocker/commit/c3e6971)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- update dependencies ([8bc4a33](https://github.com/stacksjs/ts-mocker/commit/8bc4a33)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- repo cleanup and modernization ([29a40a0](https://github.com/stacksjs/ts-mocker/commit/29a40a0)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- add git-hooks config ([25f24e1](https://github.com/stacksjs/ts-mocker/commit/25f24e1)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- use Pantry action for publish-commit and add job dependencies ([f24177e](https://github.com/stacksjs/ts-mocker/commit/f24177e)) _(by Chris <chrisbreuer93@gmail.com>)_
+- update better-dx to ^0.2.7 ([0440fc4](https://github.com/stacksjs/ts-mocker/commit/0440fc4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- enrich CLAUDE.md with detailed project context from README ([b42456c](https://github.com/stacksjs/ts-mocker/commit/b42456c)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- update CLAUDE.md with project context and crosswind details ([4867135](https://github.com/stacksjs/ts-mocker/commit/4867135)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- add proper claude code guidelines ([0828aa4](https://github.com/stacksjs/ts-mocker/commit/0828aa4)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/ts-mocker/compare/v0.1.6...HEAD)
 
 ### 🧹 Chores
