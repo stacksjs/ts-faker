@@ -3,14 +3,14 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "ts-mocker",
+      "name": "@stacksjs/ts-faker",
       "devDependencies": {
         "better-dx": "^0.2.7",
       },
     },
     "packages/af": {
       "name": "@mock-locale/af",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -23,7 +23,7 @@
     },
     "packages/af-za": {
       "name": "@mock-locale/af-za",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -36,7 +36,7 @@
     },
     "packages/ar": {
       "name": "@mock-locale/ar",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -49,7 +49,7 @@
     },
     "packages/az": {
       "name": "@mock-locale/az",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -62,7 +62,7 @@
     },
     "packages/benchmarks": {
       "name": "@ts-mocker/benchmarks",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "dependencies": {
         "@faker-js/faker": "^10.3.0",
         "@ngneat/falso": "^8.0.2",
@@ -77,9 +77,11 @@
     },
     "packages/core": {
       "name": "@stacksjs/ts-faker",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "bin": {
         "@stacksjs/ts-faker": "./dist/bin/cli.js",
+        "faker": "./dist/bin/cli.js",
+        "fake": "./dist/bin/cli.js",
         "mock": "./dist/bin/cli.js",
       },
       "dependencies": {
@@ -92,7 +94,7 @@
     },
     "packages/cs": {
       "name": "@mock-locale/cs",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -105,7 +107,7 @@
     },
     "packages/da": {
       "name": "@mock-locale/da",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -118,7 +120,7 @@
     },
     "packages/de": {
       "name": "@mock-locale/de",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -131,7 +133,7 @@
     },
     "packages/de-at": {
       "name": "@mock-locale/de-at",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -144,7 +146,7 @@
     },
     "packages/de-ch": {
       "name": "@mock-locale/de-ch",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -157,7 +159,7 @@
     },
     "packages/en": {
       "name": "@mock-locale/en",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -170,7 +172,7 @@
     },
     "packages/en-ca": {
       "name": "@mock-locale/en-ca",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -183,7 +185,7 @@
     },
     "packages/en-gb": {
       "name": "@mock-locale/en-gb",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -196,7 +198,7 @@
     },
     "packages/en-gh": {
       "name": "@mock-locale/en-gh",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -209,7 +211,7 @@
     },
     "packages/en-hk": {
       "name": "@mock-locale/en-hk",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -222,7 +224,7 @@
     },
     "packages/en-ie": {
       "name": "@mock-locale/en-ie",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -235,7 +237,7 @@
     },
     "packages/en-in": {
       "name": "@mock-locale/en-in",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -248,7 +250,7 @@
     },
     "packages/en-ng": {
       "name": "@mock-locale/en-ng",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -261,7 +263,7 @@
     },
     "packages/en-us": {
       "name": "@mock-locale/en-us",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -274,7 +276,7 @@
     },
     "packages/en-za": {
       "name": "@mock-locale/en-za",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -287,7 +289,7 @@
     },
     "packages/eo": {
       "name": "@mock-locale/eo",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -300,7 +302,7 @@
     },
     "packages/es": {
       "name": "@mock-locale/es",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -313,7 +315,7 @@
     },
     "packages/es-mx": {
       "name": "@mock-locale/es-mx",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -326,7 +328,7 @@
     },
     "packages/fa": {
       "name": "@mock-locale/fa",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -339,7 +341,7 @@
     },
     "packages/fi": {
       "name": "@mock-locale/fi",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -352,7 +354,7 @@
     },
     "packages/fr": {
       "name": "@mock-locale/fr",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -365,7 +367,7 @@
     },
     "packages/fr-be": {
       "name": "@mock-locale/fr-be",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -378,7 +380,7 @@
     },
     "packages/fr-ca": {
       "name": "@mock-locale/fr-ca",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -391,7 +393,7 @@
     },
     "packages/fr-ch": {
       "name": "@mock-locale/fr-ch",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -404,7 +406,7 @@
     },
     "packages/fr-lu": {
       "name": "@mock-locale/fr-lu",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -417,7 +419,7 @@
     },
     "packages/fr-sn": {
       "name": "@mock-locale/fr-sn",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -430,7 +432,7 @@
     },
     "packages/he": {
       "name": "@mock-locale/he",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -443,7 +445,7 @@
     },
     "packages/hi": {
       "name": "@mock-locale/hi",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -456,7 +458,7 @@
     },
     "packages/it": {
       "name": "@mock-locale/it",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -469,7 +471,7 @@
     },
     "packages/ja": {
       "name": "@mock-locale/ja",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -482,7 +484,7 @@
     },
     "packages/ko": {
       "name": "@mock-locale/ko",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -495,7 +497,7 @@
     },
     "packages/nl": {
       "name": "@mock-locale/nl",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -508,7 +510,7 @@
     },
     "packages/no": {
       "name": "@mock-locale/no",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -521,7 +523,7 @@
     },
     "packages/pl": {
       "name": "@mock-locale/pl",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -534,7 +536,7 @@
     },
     "packages/pt": {
       "name": "@mock-locale/pt",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -547,7 +549,7 @@
     },
     "packages/pt-mz": {
       "name": "@mock-locale/pt-mz",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -560,7 +562,7 @@
     },
     "packages/sv": {
       "name": "@mock-locale/sv",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -573,7 +575,7 @@
     },
     "packages/tl": {
       "name": "@mock-locale/tl",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -586,7 +588,7 @@
     },
     "packages/tr": {
       "name": "@mock-locale/tr",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -599,7 +601,7 @@
     },
     "packages/uk": {
       "name": "@mock-locale/uk",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -612,7 +614,7 @@
     },
     "packages/zh": {
       "name": "@mock-locale/zh",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -625,7 +627,7 @@
     },
     "packages/zh-cn": {
       "name": "@mock-locale/zh-cn",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -638,7 +640,7 @@
     },
     "packages/zh-tw": {
       "name": "@mock-locale/zh-tw",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -651,7 +653,7 @@
     },
     "packages/zu": {
       "name": "@mock-locale/zu",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -664,7 +666,7 @@
     },
     "packages/zu-za": {
       "name": "@mock-locale/zu-za",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "devDependencies": {
         "@types/bun": "^1.3.1",
         "bun-plugin-dtsx": "0.21.17",
@@ -963,7 +965,7 @@
 
     "path-scurry": ["path-scurry@1.11.1", "", { "dependencies": { "lru-cache": "^10.2.0", "minipass": "^5.0.0 || ^6.0.2 || ^7.0.0" } }, "sha512-Xa4Nw17FS9ApQFJ9umLiJS4orGjm7ZzwUrwamcGQuHSzDyth9boKDaycYdDcZDuqYATXw4HFXgaqWTctW/v1HA=="],
 
-    "pickier": ["pickier@0.1.21", "", { "dependencies": { "@stacksjs/clapp": "^0.2.0" }, "optionalDependencies": { "ts-spell-check": "^0.1.0" }, "bin": { "pickier": "./dist/bin/cli.js" } }, "sha512-mxB2dnzRx9d9wfTl1wauo7rSjSnCR/AHnB+/hBZOtZ3EOCLGO7XWMHf5OwFBKS7jQOEMw4kgc88y3v/u2EzB1g=="],
+    "pickier": ["pickier@0.1.22", "", { "dependencies": { "@stacksjs/clapp": "^0.2.0" }, "optionalDependencies": { "ts-spell-check": "^0.1.0" }, "bin": { "pickier": "./dist/bin/cli.js" } }, "sha512-OUbobNXcHdQGSTctCIzeRFAa35EAkIHSkdwXszhnXJarArNIa3GmKTA7uO4RErv4p8ay3HrgL7MEKnrKftHT+A=="],
 
     "process": ["process@0.11.10", "", {}, "sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A=="],
 
@@ -1003,7 +1005,7 @@
 
     "stx-router": ["stx-router@0.2.21", "", {}, "sha512-Kg647dVYfYUDRRcLAw1aCOshXIxZW4KT31xvE0Q4A4A29o66kL77gdvWWIZo61xaC9CbTx8Vx9aOrhXXztjhdw=="],
 
-    "tar-stream": ["tar-stream@3.1.8", "", { "dependencies": { "b4a": "^1.6.4", "bare-fs": "^4.5.5", "fast-fifo": "^1.2.0", "streamx": "^2.15.0" } }, "sha512-U6QpVRyCGHva435KoNWy9PRoi2IFYCgtEhq9nmrPPpbRacPs9IH4aJ3gbrFC8dPcXvdSZ4XXfXT5Fshbp2MtlQ=="],
+    "tar-stream": ["tar-stream@3.2.0", "", { "dependencies": { "b4a": "^1.6.4", "bare-fs": "^4.5.5", "fast-fifo": "^1.2.0", "streamx": "^2.15.0" } }, "sha512-ojzvCvVaNp6aOTFmG7jaRD0meowIAuPc3cMMhSgKiVWws1GyHbGd/xvnyuRKcKlMpt3qvxx6r0hreCNITP9hIg=="],
 
     "teex": ["teex@1.0.1", "", { "dependencies": { "streamx": "^2.12.5" } }, "sha512-eYE6iEI62Ni1H8oIa7KlDU6uQBtqr4Eajni3wX7rpfXD8ysFx8z0+dri+KWEPWpBsxXfxu58x/0jvTVT1ekOSg=="],
 
