@@ -8,7 +8,9 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "paths": {
-      "ts-mocker": ["./packages/core/src/index.ts"]
+      "ts-mocker": ["./packages/core/src/index.ts"],
+      "@stacksjs/ts-faker": ["./packages/core/src/index.ts"],
+      "@stacksjs/ts-faker/*": ["./packages/core/src/*"]
     },
     "resolveJsonModule": true,
     "types": [

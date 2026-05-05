@@ -35,7 +35,7 @@ describe('CLI', () => {
     test('shows version number', async () => {
       const { stdout, exitCode } = await execCLI(['version'])
       expect(exitCode).toBe(0)
-      expect(stdout).toContain('ts-mocker v')
+      expect(stdout).toContain('fake v')
     })
 
     test('--version flag shows version', async () => {
@@ -49,7 +49,7 @@ describe('CLI', () => {
     test('--help shows help information', async () => {
       const { stdout, exitCode } = await execCLI(['--help'])
       expect(exitCode).toBe(0)
-      expect(stdout).toContain('@stacksjs/ts-faker')
+      expect(stdout).toContain('fake')
       expect(stdout).toContain('generate')
       expect(stdout).toContain('categories')
       expect(stdout).toContain('locales')
