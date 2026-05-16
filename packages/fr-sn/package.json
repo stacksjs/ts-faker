@@ -44,9 +44,9 @@
     "@stacksjs/ts-faker": "workspace:*"
   },
   "devDependencies": {
-    "@types/bun": "^1.3.1",
+    "@types/bun": "^1.3.14",
     "bun-plugin-dtsx": "0.21.17",
-    "bunfig": "^0.15.6",
+    "bunfig": "^0.15.13",
     "typescript": "^5.9.3"
   }
 }
