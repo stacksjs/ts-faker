@@ -1,3 +1,60 @@
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.8...v0.1.9)
+
+### 🐛 Bug Fixes
+
+- typecheck via @stacksjs/ts-faker workspace path + repair stale CLI/perf tests ([96ab3a7](https://github.com/stacksjs/ts-faker/commit/96ab3a7)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+
+### 🤖 Continuous Integration
+
+- drop redundant setup-bun (pantry installs bun via deps.yaml) ([d5a07a0](https://github.com/stacksjs/ts-faker/commit/d5a07a0)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 🧹 Chores
+
+- release v0.1.9 ([a25af60](https://github.com/stacksjs/ts-faker/commit/a25af60)) _(by Chris <chrisbreuer93@gmail.com>)_
+- finish ts-mocker -> ts-faker rebrand ([237ea21](https://github.com/stacksjs/ts-faker/commit/237ea21)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up @stacksjs/logsmith 0.2.3 ([a1e1d7d](https://github.com/stacksjs/ts-faker/commit/a1e1d7d)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up buddy-bot 0.9.20 ([cb2f6b4](https://github.com/stacksjs/ts-faker/commit/cb2f6b4)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- **deps**: bump better-dx to ^0.2.15 ([bce7e06](https://github.com/stacksjs/ts-faker/commit/bce7e06)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- drop final eslint references from staged-lint hook config ([10cd43c](https://github.com/stacksjs/ts-faker/commit/10cd43c)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- switch lint scripts from eslint to pickier ([a229321](https://github.com/stacksjs/ts-faker/commit/a229321)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- refresh bun.lock and apply pickier --fix ([1cdb907](https://github.com/stacksjs/ts-faker/commit/1cdb907)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- refresh bun.lock ([9ecdddf](https://github.com/stacksjs/ts-faker/commit/9ecdddf)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- refresh bun.lock to pick up latest pickier ([cc7f6ed](https://github.com/stacksjs/ts-faker/commit/cc7f6ed)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _chrisbreuer <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.8...HEAD)
+
+### 🐛 Bug Fixes
+
+- typecheck via @stacksjs/ts-faker workspace path + repair stale CLI/perf tests ([96ab3a7](https://github.com/stacksjs/ts-faker/commit/96ab3a7)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+
+### 🤖 Continuous Integration
+
+- drop redundant setup-bun (pantry installs bun via deps.yaml) ([d5a07a0](https://github.com/stacksjs/ts-faker/commit/d5a07a0)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### 🧹 Chores
+
+- finish ts-mocker -> ts-faker rebrand ([237ea21](https://github.com/stacksjs/ts-faker/commit/237ea21)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up @stacksjs/logsmith 0.2.3 ([a1e1d7d](https://github.com/stacksjs/ts-faker/commit/a1e1d7d)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up buddy-bot 0.9.20 ([cb2f6b4](https://github.com/stacksjs/ts-faker/commit/cb2f6b4)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- **deps**: bump better-dx to ^0.2.15 ([bce7e06](https://github.com/stacksjs/ts-faker/commit/bce7e06)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- drop final eslint references from staged-lint hook config ([10cd43c](https://github.com/stacksjs/ts-faker/commit/10cd43c)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- switch lint scripts from eslint to pickier ([a229321](https://github.com/stacksjs/ts-faker/commit/a229321)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- refresh bun.lock and apply pickier --fix ([1cdb907](https://github.com/stacksjs/ts-faker/commit/1cdb907)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- refresh bun.lock ([9ecdddf](https://github.com/stacksjs/ts-faker/commit/9ecdddf)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+- refresh bun.lock to pick up latest pickier ([cc7f6ed](https://github.com/stacksjs/ts-faker/commit/cc7f6ed)) _(by glennmichael123 <gtorregosa@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _chrisbreuer <chrisbreuer93@gmail.com>_
+- _glennmichael123 <gtorregosa@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/ts-mocker/compare/v0.1.7...v0.1.8)
 
 ### 🐛 Bug Fixes
