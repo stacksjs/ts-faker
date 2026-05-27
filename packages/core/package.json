@@ -2,16 +2,16 @@
   "name": "@stacksjs/ts-faker",
   "type": "module",
   "version": "0.1.8",
-  "description": "ts-mocker is a performance-focused and lightweight faker/data mocking library for TypeScript.",
+  "description": "A performance-focused and lightweight faker / fake-data mocking library for TypeScript.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
-  "homepage": "https://github.com/stacksjs/ts-mocker#readme",
+  "homepage": "https://github.com/stacksjs/ts-faker#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stacksjs/ts-mocker.git"
+    "url": "git+https://github.com/stacksjs/ts-faker.git"
   },
   "bugs": {
-    "url": "https://github.com/stacksjs/ts-mocker/issues"
+    "url": "https://github.com/stacksjs/ts-faker/issues"
   },
   "keywords": [
     "faker",
@@ -46,7 +46,7 @@
   "module": "./dist/src/index.js",
   "types": "./dist/index.d.ts",
   "bin": {
-    "@stacksjs/ts-faker": "./dist/bin/cli.js",
+    "ts-faker": "./dist/bin/cli.js",
     "faker": "./dist/bin/cli.js",
     "fake": "./dist/bin/cli.js",
     "mock": "./dist/bin/cli.js"

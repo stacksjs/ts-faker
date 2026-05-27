@@ -80,7 +80,7 @@ export class Faker {
     // For non-English locales, warn about async loading
     if (locale !== 'en' && !LocaleLoader.isCached(locale)) {
       console.warn(
-        `[ts-mocker] Locale '${locale}' requires async loading. Use 'await Faker.create({ locale: "${locale}" })' for better performance. Falling back to English.`,
+        `[ts-faker] Locale '${locale}' requires async loading. Use 'await Faker.create({ locale: "${locale}" })' for better performance. Falling back to English.`,
       )
       this._locale = LocaleLoader.loadSync('en')
     }
@@ -191,7 +191,7 @@ export class Faker {
   setLocaleSync(locale: string): this {
     if (!LocaleLoader.isCached(locale) && locale !== 'en') {
       console.warn(
-        `[ts-mocker] Locale '${locale}' is not loaded. Use 'await faker.setLocale("${locale}")' or preload it first.`,
+        `[ts-faker] Locale '${locale}' is not loaded. Use 'await faker.setLocale("${locale}")' or preload it first.`,
       )
       return this
     }
