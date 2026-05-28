@@ -1,7 +1,7 @@
 {
   "name": "@stacksjs/ts-faker",
   "type": "module",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A performance-focused and lightweight faker / fake-data mocking library for TypeScript.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

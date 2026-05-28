@@ -1,3 +1,27 @@
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.9...v0.1.10)
+
+### 🐛 Bug Fixes
+
+- **release**: isolate per-package publish so locales can't block the core ([40823a8](https://github.com/stacksjs/ts-faker/commit/40823a8)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### 🧹 Chores
+
+- release v0.1.10 ([edb197f](https://github.com/stacksjs/ts-faker/commit/edb197f)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.9...HEAD)
+
+### 🐛 Bug Fixes
+
+- **release**: isolate per-package publish so locales can't block the core ([40823a8](https://github.com/stacksjs/ts-faker/commit/40823a8)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+### Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.8...v0.1.9)
 
 ### 🐛 Bug Fixes
