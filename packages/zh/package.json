@@ -2,7 +2,7 @@
   "name": "@mock-locale/zh",
   "type": "module",
   "sideEffects": false,
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Chinese locale data for ts-mocker (base locale for zh-cn and zh-tw)",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

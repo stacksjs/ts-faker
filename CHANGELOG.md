@@ -1,3 +1,13 @@
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.11...v0.1.12)
+
+## 🧹 Chores
+
+- release v0.1.12 ([ec2190d](https://github.com/stacksjs/ts-faker/commit/ec2190d)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.10...v0.1.11)
 
 ## 🧹 Chores
