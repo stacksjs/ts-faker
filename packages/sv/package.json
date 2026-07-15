@@ -2,7 +2,7 @@
   "name": "@mock-locale/sv",
   "type": "module",
   "sideEffects": false,
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "SV locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",

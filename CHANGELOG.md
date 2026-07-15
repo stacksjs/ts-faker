@@ -1,3 +1,34 @@
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.10...v0.1.11)
+
+## 🧹 Chores
+
+- release v0.1.11 ([533853b](https://github.com/stacksjs/ts-faker/commit/533853b)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **pkg**: publint clean — core bin shebang + sideEffects across locales ([57a6ca2](https://github.com/stacksjs/ts-faker/commit/57a6ca2)) _(by Chris <chrisbreuer93@gmail.com>)_
+- upgrade to TypeScript 7 ([9e30ced](https://github.com/stacksjs/ts-faker/commit/9e30ced)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up pickier 0.1.37 ([630046a](https://github.com/stacksjs/ts-faker/commit/630046a)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up pickier 0.1.35 ([95a1365](https://github.com/stacksjs/ts-faker/commit/95a1365)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up pickier 0.1.33 ([c30823f](https://github.com/stacksjs/ts-faker/commit/c30823f)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _chrisbreuer <chrisbreuer93@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.10...HEAD)
+
+## 🧹 Chores
+
+- **pkg**: publint clean — core bin shebang + sideEffects across locales ([57a6ca2](https://github.com/stacksjs/ts-faker/commit/57a6ca2)) _(by Chris <chrisbreuer93@gmail.com>)_
+- upgrade to TypeScript 7 ([9e30ced](https://github.com/stacksjs/ts-faker/commit/9e30ced)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up pickier 0.1.37 ([630046a](https://github.com/stacksjs/ts-faker/commit/630046a)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up pickier 0.1.35 ([95a1365](https://github.com/stacksjs/ts-faker/commit/95a1365)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+- **deps**: refresh bun.lock to pick up pickier 0.1.33 ([c30823f](https://github.com/stacksjs/ts-faker/commit/c30823f)) _(by chrisbreuer <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+- _chrisbreuer <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.9...v0.1.10)
 
 ### 🐛 Bug Fixes
