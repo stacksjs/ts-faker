@@ -1,6 +1,7 @@
 {
   "name": "@mock-locale/fi",
   "type": "module",
+  "sideEffects": false,
   "version": "0.1.10",
   "description": "FI locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",

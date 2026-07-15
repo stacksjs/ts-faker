@@ -1,6 +1,7 @@
 {
   "name": "@mock-locale/ko",
   "type": "module",
+  "sideEffects": false,
   "version": "0.1.10",
   "description": "KO locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",

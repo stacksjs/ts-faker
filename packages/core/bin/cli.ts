@@ -1,3 +1,4 @@
+#!/usr/bin/env bun
 import process from 'node:process'
 import { CLI } from '@stacksjs/clapp'
 import { version } from '../package.json'
