@@ -474,6 +474,6 @@ If you encounter issues during migration:
 1. Check the [API Reference](/advanced/api-reference)
 2. See [Usage Examples](/examples)
 3. Ask on [GitHub Discussions](https://github.com/stacksjs/ts-mocker/discussions)
-4. Join the [Discord](https://discord.gg/stacksjs)
+4. Join the [Discord](https://stacksjs.com/discord)
 
 Happy migrating! 🚀
