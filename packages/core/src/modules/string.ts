@@ -1,6 +1,17 @@
 import type { Random } from '../random'
 import type { StringOptions } from '../types'
 
+/**
+ * Read a length-or-options argument.
+ *
+ * `faker.string.alphanumeric(4)` is what people write, and taking only an
+ * options object meant that call silently produced the default ten
+ * characters: an argument accepted, ignored, and never reported.
+ */
+function asOptions<T extends StringOptions>(options?: number | T): T {
+  return (typeof options === 'number' ? { length: options } : options ?? {}) as T
+}
+
 export class StringModule {
   constructor(private random: Random) {}
 
@@ -54,9 +65,10 @@ export class StringModule {
    * Generate a random alphabetic string
    * @example faker.string.alpha() // 'aBcDeFgHiJ'
    */
-  alpha(options?: StringOptions): string {
-    const length = options?.length ?? 10
-    const casing = options?.casing ?? 'mixed'
+  alpha(options?: number | StringOptions): string {
+    const settings = asOptions(options)
+    const length = settings.length ?? 10
+    const casing = settings.casing ?? 'mixed'
 
     const lower = 'abcdefghijklmnopqrstuvwxyz'
     const upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -83,9 +95,10 @@ export class StringModule {
    * Generate a random alphanumeric string
    * @example faker.string.alphanumeric() // 'aBc123XyZ'
    */
-  alphanumeric(options?: StringOptions): string {
-    const length = options?.length ?? 10
-    const casing = options?.casing ?? 'mixed'
+  alphanumeric(options?: number | StringOptions): string {
+    const settings = asOptions(options)
+    const length = settings.length ?? 10
+    const casing = settings.casing ?? 'mixed'
 
     const lower = 'abcdefghijklmnopqrstuvwxyz'
     const upper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -155,9 +168,10 @@ export class StringModule {
    * Generate a hexadecimal string
    * @example faker.string.hexadecimal() // 'a3f5b2'
    */
-  hexadecimal(options?: StringOptions & { prefix?: string }): string {
-    const length = options?.length ?? 6
-    const prefix = options?.prefix ?? ''
+  hexadecimal(options?: number | (StringOptions & { prefix?: string })): string {
+    const settings = asOptions<StringOptions & { prefix?: string }>(options)
+    const length = settings.length ?? 6
+    const prefix = settings.prefix ?? ''
     const chars = '0123456789abcdef'
     let result = prefix
     for (let i = 0; i < length; i++) {

@@ -49,3 +49,21 @@ describe('date bounds', () => {
     expect(() => faker.date.between({ from: 'the day before yesterday' })).toThrow(/`from`/)
   })
 })
+
+/**
+ * `faker.string.alphanumeric(4)` is the shape people write first. Taking only
+ * an options object turned that into the ten-character default: the argument
+ * was accepted and ignored.
+ */
+describe('string lengths', () => {
+  it('accepts a bare length', () => {
+    expect(faker.string.alphanumeric(4)).toHaveLength(4)
+    expect(faker.string.alpha(7)).toHaveLength(7)
+    expect(faker.string.hexadecimal(3)).toHaveLength(3)
+  })
+
+  it('still accepts the options object', () => {
+    expect(faker.string.alphanumeric({ length: 5, casing: 'lower' })).toMatch(/^[a-z0-9]{5}$/)
+    expect(faker.string.hexadecimal({ length: 4, prefix: '0x' })).toMatch(/^0x[0-9a-f]{4}$/)
+  })
+})
