@@ -1,3 +1,40 @@
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.12...v0.1.13)
+
+## 🐛 Bug Fixes
+
+- **date**: accept ISO strings and timestamps as date bounds ([e1e5463](https://github.com/stacksjs/ts-faker/commit/e1e5463)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 📚 Documentation
+
+- link the community as stacksjs.com/discord ([05980cf](https://github.com/stacksjs/ts-faker/commit/05980cf)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 🧹 Chores
+
+- release v0.1.13 ([945f321](https://github.com/stacksjs/ts-faker/commit/945f321)) _(by Chris <chrisbreuer93@gmail.com>)_
+- **deps**: declare bun ^1.3.14 in deps.yaml ([a6fd5c1](https://github.com/stacksjs/ts-faker/commit/a6fd5c1)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.12...HEAD)
+
+## 🐛 Bug Fixes
+
+- **date**: accept ISO strings and timestamps as date bounds ([e1e5463](https://github.com/stacksjs/ts-faker/commit/e1e5463)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 📚 Documentation
+
+- link the community as stacksjs.com/discord ([05980cf](https://github.com/stacksjs/ts-faker/commit/05980cf)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 🧹 Chores
+
+- **deps**: declare bun ^1.3.14 in deps.yaml ([a6fd5c1](https://github.com/stacksjs/ts-faker/commit/a6fd5c1)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.11...v0.1.12)
 
 ## 🧹 Chores

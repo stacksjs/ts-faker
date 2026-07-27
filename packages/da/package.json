@@ -2,7 +2,7 @@
   "name": "@mock-locale/da",
   "type": "module",
   "sideEffects": false,
-  "version": "0.1.12",
+  "version": "0.1.13",
   "description": "DA locale data for ts-mocker",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
