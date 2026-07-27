@@ -201,9 +201,19 @@ export interface NumberOptions {
   precision?: number
 }
 
+/**
+ * A boundary for the date helpers.
+ *
+ * A `Date`, or anything `new Date()` understands: an ISO string and a
+ * millisecond timestamp are what callers reach for first, and rejecting them
+ * with `from.getTime is not a function` from three frames down is a poor
+ * answer to an unambiguous request.
+ */
+export type DateBound = Date | string | number
+
 export interface DateOptions {
-  from?: Date
-  to?: Date
+  from?: DateBound
+  to?: DateBound
 }
 
 export interface StringOptions {

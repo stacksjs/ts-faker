@@ -1,5 +1,22 @@
 import type { Random } from '../random'
-import type { DateOptions } from '../types'
+import type { DateBound, DateOptions } from '../types'
+
+/**
+ * Coerce a boundary to a `Date`.
+ *
+ * Callers pass ISO strings and timestamps as often as they pass `Date`
+ * objects; every helper here funnels through this so one of them cannot
+ * quietly accept what another rejects. An unparseable value is reported as
+ * itself rather than as a missing method on whatever it happened to be.
+ */
+function toDate(value: DateBound, label: string): Date {
+  const date = value instanceof Date ? value : new Date(value)
+
+  if (Number.isNaN(date.getTime()))
+    throw new TypeError(`faker.date: \`${label}\` is not a valid date: ${String(value)}`)
+
+  return date
+}
 
 export class DateModule {
   constructor(private random: Random) {}
@@ -10,8 +27,10 @@ export class DateModule {
    */
   past(options?: DateOptions & { years?: number }): Date {
     const years = options?.years ?? 1
-    const to = options?.to ?? new Date()
-    const from = options?.from ?? new Date(to.getTime() - years * 365 * 24 * 60 * 60 * 1000)
+    const to = options?.to === undefined ? new Date() : toDate(options.to, 'to')
+    const from = options?.from === undefined
+      ? new Date(to.getTime() - years * 365 * 24 * 60 * 60 * 1000)
+      : toDate(options.from, 'from')
 
     return this.between({ from, to })
   }
@@ -22,8 +41,10 @@ export class DateModule {
    */
   future(options?: DateOptions & { years?: number }): Date {
     const years = options?.years ?? 1
-    const from = options?.from ?? new Date()
-    const to = options?.to ?? new Date(from.getTime() + years * 365 * 24 * 60 * 60 * 1000)
+    const from = options?.from === undefined ? new Date() : toDate(options.from, 'from')
+    const to = options?.to === undefined
+      ? new Date(from.getTime() + years * 365 * 24 * 60 * 60 * 1000)
+      : toDate(options.to, 'to')
 
     return this.between({ from, to })
   }
@@ -33,8 +54,10 @@ export class DateModule {
    * @example faker.date.between({ from: new Date(2020, 0, 1), to: new Date(2025, 0, 1) })
    */
   between(options: DateOptions): Date {
-    const from = options.from ?? new Date(Date.now() - 365 * 24 * 60 * 60 * 1000)
-    const to = options.to ?? new Date()
+    const from = options.from === undefined
+      ? new Date(Date.now() - 365 * 24 * 60 * 60 * 1000)
+      : toDate(options.from, 'from')
+    const to = options.to === undefined ? new Date() : toDate(options.to, 'to')
 
     const fromTime = from.getTime()
     const toTime = to.getTime()
