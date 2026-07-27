@@ -1,3 +1,27 @@
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.13...v0.1.14)
+
+## 🐛 Bug Fixes
+
+- **string**: accept a bare length in alpha, alphanumeric and hexadecimal ([fe6385e](https://github.com/stacksjs/ts-faker/commit/fe6385e)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## 🧹 Chores
+
+- release v0.1.14 ([ff2c4fc](https://github.com/stacksjs/ts-faker/commit/ff2c4fc)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
+[Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.13...HEAD)
+
+## 🐛 Bug Fixes
+
+- **string**: accept a bare length in alpha, alphanumeric and hexadecimal ([fe6385e](https://github.com/stacksjs/ts-faker/commit/fe6385e)) _(by Chris <chrisbreuer93@gmail.com>)_
+
+## Contributors
+
+- _Chris <chrisbreuer93@gmail.com>_
+
 [Compare changes](https://github.com/stacksjs/ts-faker/compare/v0.1.12...v0.1.13)
 
 ## 🐛 Bug Fixes
