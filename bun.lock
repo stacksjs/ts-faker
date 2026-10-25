@@ -70,7 +70,7 @@
         "@stacksjs/ts-faker": "workspace:*",
         "casual": "^1.6.2",
         "chance": "^1.1.13",
-        "tinybench": "^5.1.0",
+        "tinybench": "^6.2.2",
       },
       "devDependencies": {
         "@types/chance": "^1.1.7",
@@ -1059,7 +1059,7 @@
 
     "text-decoder": ["text-decoder@1.2.7", "", { "dependencies": { "b4a": "^1.6.4" } }, "sha512-vlLytXkeP4xvEq2otHeJfSQIRyWxo/oZGEbXrtEEF9Hnmrdly59sUbzZ/QgyWuLYHctCHxFF4tRQZNQ9k60ExQ=="],
 
-    "tinybench": ["tinybench@5.1.0", "", {}, "sha512-LXKNtFualiKOm6gADe1UXPtf8+Nfn1CtPMEHAT33Fd2YjQatrujkDcK0+4wRC1X6t7fxUDXUs6BsvuIgfkDgDg=="],
+    "tinybench": ["tinybench@6.2.2", "", {}, "sha512-nIZ2N2dFpjBsg2hgitKu7mA+FvsIJuGJOwysRngmVRRmWgR/UyPjwJj8c/fT/dhm8EkHnF5EOogRf+0Z2qrimA=="],
 
     "ts-broadcasting": ["ts-broadcasting@0.0.9", "", { "bin": { "broadcast": "./dist/bin/cli.js" } }, "sha512-OA95bHPe3M/24Gx8FpbUV0+NzGwvemG2LP64s1p/zATagX8xJckeziru03ccjW0ExWaD+W5tC1GRIqS6lfbB4A=="],
 
